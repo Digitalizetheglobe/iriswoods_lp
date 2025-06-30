@@ -168,7 +168,7 @@ export function LocationSection() {
               </motion.div>
               <div>
                 <h3 className="text-xl font-semibold mb-1">
-                  5 mins from Ghotawade daily essentials
+                  5 mins from Ghotawade Road
                 </h3>
                 <p className="text-blue-100">
                   All your daily needs within walking distance
