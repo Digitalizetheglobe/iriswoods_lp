@@ -74,7 +74,7 @@ export function AboutSection() {
               ].map((item, index) => (
                 <motion.div 
                   key={index} 
-                  className="bg-[#bae3f3] p-6 rounded-lg text-center border border-[#097199]"
+                  className="bg-[#dcf8fe] p-6 rounded-lg text-center border border-[#097199]"
                   variants={statItem}
                   custom={index}
                   whileHover={{ y: -5, boxShadow: "0 10px 20px rgba(0,0,0,0.1)" }}

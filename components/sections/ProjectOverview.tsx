@@ -141,7 +141,7 @@ export function ProjectOverview() {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
               <h3 className="font-bold text-[#097199] text-2xl  mb-2">Project Size</h3>
-              <p className="text-gray-600 text-lg">6 acres</p>
+              <p className="text-gray-600 text-lg">6 Acres</p>
             </div>
           </motion.div>
 
