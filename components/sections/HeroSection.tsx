@@ -28,7 +28,7 @@ export function HeroSection() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image 
-            src="/Banner.png" 
+            src="/images/Banner.png" 
             alt="IRIS WOODS Banner" 
             fill
             priority

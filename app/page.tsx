@@ -13,7 +13,6 @@ import { Header } from '@/components/common/Header';
 import { Modal } from '@/components/common/Modal';
 import { Footer } from '@/components/common/Footer';
 
-
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [formData, setFormData] = useState({
@@ -24,16 +23,47 @@ export default function Home() {
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
 
+  // Handle input changes with phone validation
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
-    setFormData(prev => ({ ...prev, [name]: value }));
+
+    if (name === 'phone') {
+      const digitsOnly = value.replace(/\D/g, '');
+      if (digitsOnly.length <= 10) {
+        setFormData(prev => ({ ...prev, [name]: digitsOnly }));
+      }
+    } else {
+      setFormData(prev => ({ ...prev, [name]: value }));
+    }
   };
 
+  // Form validation before submit
   const handleEnquirySubmit = (e: React.FormEvent) => {
     e.preventDefault();
+
+    const { name, email, phone, message } = formData;
+
+    if (!name || !email || !phone || !message) {
+      alert('Please fill in all the fields.');
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(email)) {
+      alert('Please enter a valid email address.');
+      return;
+    }
+
+    if (!/^\d{10}$/.test(phone)) {
+      alert('Phone number must be exactly 10 digits.');
+      return;
+    }
+
+    // If all validations pass
     console.log('Enquiry submitted:', formData);
     setIsSubmitted(true);
     setFormData({ name: '', email: '', phone: '', message: '' });
+
     setTimeout(() => {
       setIsSubmitted(false);
       setIsModalOpen(false);
@@ -43,7 +73,7 @@ export default function Home() {
   return (
     <div className="min-h-screen font-sans">
       <Header onEnquireClick={() => setIsModalOpen(true)} />
-      
+
       <main>
         <HeroSection />
         <AboutSection />
@@ -55,7 +85,7 @@ export default function Home() {
         <ContactSection />
       </main>
 
-    <Footer />
+      <Footer />
 
       {/* Enquiry Modal */}
       <Modal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)}>
@@ -80,7 +110,6 @@ export default function Home() {
                 onChange={handleInputChange}
                 required
                 className="w-full p-2 border rounded placeholder:text-gray-400 text-[#097199]"
-                
               />
               <input
                 type="email"
@@ -98,6 +127,7 @@ export default function Home() {
                 value={formData.phone}
                 onChange={handleInputChange}
                 required
+                maxLength={10}
                 className="w-full p-2 border rounded placeholder:text-gray-400 text-[#097199]"
               />
               <textarea
