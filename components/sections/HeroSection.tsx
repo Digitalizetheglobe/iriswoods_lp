@@ -2,6 +2,8 @@
 
 import { motion, Variants } from 'framer-motion';
 import Image from 'next/image';
+import Image1 from '../../public/images/Banner.png';
+
 
 export function HeroSection() {
   // Animation variants
@@ -28,7 +30,7 @@ export function HeroSection() {
         {/* Desktop Image */}
         <div className="hidden md:block">
           <Image 
-            src="/images/Banner.png" 
+            src={Image1} 
             alt="IRIS WOODS Banner" 
             fill
             priority
