@@ -1,6 +1,7 @@
 'use client';
 
 import Image from 'next/image';
+import { useState } from 'react';
 import {
   FaFacebookF,
   FaInstagram,
@@ -16,12 +17,24 @@ export function Footer() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const [showWhatsAppChat, setShowWhatsAppChat] = useState(false);
+  const [whatsAppMessage, setWhatsAppMessage] = useState('');
+
+  const handleWhatsAppSend = () => {
+    if (whatsAppMessage.trim() !== '') {
+      const phoneNumber = '918378944777'; // Replace with your number
+      const encodedMessage = encodeURIComponent(whatsAppMessage);
+      window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, '_blank');
+      setWhatsAppMessage('');
+      setShowWhatsAppChat(false);
+    }
+  };
+
   return (
     <>
       {/* Footer Section */}
       <footer className="bg-[#097199] py-6">
-        <div className="container mx-auto px-4 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
-          
+        <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           {/* Left: Logo + Social Icons */}
           <div className="flex items-center space-x-6">
             <Image src="/iris-white.png" alt="Logo" width={120} height={40} />
@@ -34,10 +47,10 @@ export function Footer() {
           </div>
 
           {/* Center: Copyright */}
-          <div className="text-sm text-white text-center">
-            © {new Date().getFullYear()} RISING SPACES. All Rights Reserved. Designed by{' '}
-            <span className="underline underline-offset-2">
-              <a href="/privacy-policy">Digitalize The Globe</a>
+          <div className="text-[16px] text-white text-center">
+            © {new Date().getFullYear()} Copyright RISING SPACES. All Rights Reserved. Carefully Crafted By{' '}
+            <span className="no-underline underline-offset-2 text-[#3eb6e6]">
+              <a href="https://digitalizetheglobe.com/">Digitalize The Globe</a>
             </span>
           </div>
 
@@ -52,31 +65,53 @@ export function Footer() {
       {/* Floating Action Buttons */}
       <>
         {/* WhatsApp Button - Bottom Left */}
-        <a
-          href="https://wa.me/918378944777" // Replace with your number
-          target="_blank"
-          rel="noopener noreferrer"
-          className="fixed bottom-6 left-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 z-50"
+        <button
+          onClick={() => setShowWhatsAppChat(!showWhatsAppChat)}
+          className="fixed bottom-6 left-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 z-50 cursor-pointer"
           aria-label="WhatsApp"
         >
           <FaWhatsapp size={20} />
-        </a>
+        </button>
+
+        {/* WhatsApp Chat Popup */}
+        {showWhatsAppChat && (
+          <div className="fixed bottom-20 left-6 w-72 bg-white rounded-lg shadow-lg z-50 border">
+            <div className="p-3 border-b bg-[#097199] text-white font-bold flex justify-between items-center">
+              <span>Rising Spaces</span>
+              <button className='cursor-pointer' onClick={() => setShowWhatsAppChat(false)}>✕</button>
+            </div>
+            <div className="p-3">
+              <p className="text-sm text-gray-700 mb-2">Hey! 👋 How can we help you?</p>
+              <textarea
+                rows={2}
+                className="w-full p-2 border rounded-md text-sm placeholder:text-[#097199] text-[#097199]"
+                placeholder="Enter your message"   
+                value={whatsAppMessage}
+                onChange={(e) => setWhatsAppMessage(e.target.value)}
+              />
+              <button
+                onClick={handleWhatsAppSend}
+                className="mt-2 w-full bg-[#097199] text-white py-1.5 rounded-md hover:bg-[#304c58] cursor-pointer"
+              >
+                Send
+              </button>
+            </div>
+          </div>
+        )}
 
         {/* Call + Scroll to Top - Bottom Right */}
         <div className="fixed bottom-6 right-6 flex flex-col items-end space-y-3 z-50">
-          {/* Call Button */}
           <a
-            href="tel:+918378944777" // Replace with your number
-            className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600"
+            href="tel:+918378944777"
+            className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 cursor-pointer"
             aria-label="Call"
           >
             <FaPhoneAlt size={20} />
           </a>
 
-          {/* Scroll to Top Button */}
           <button
             onClick={scrollToTop}
-            className="bg-gray-700 text-white p-3 rounded-full shadow-lg hover:bg-gray-800"
+            className="bg-gray-700 text-white p-3 rounded-full shadow-lg hover:bg-gray-800 cursor-pointer"
             aria-label="Scroll to Top"
           >
             <FaArrowUp size={20} />

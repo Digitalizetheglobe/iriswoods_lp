@@ -69,7 +69,7 @@ export function AboutSection() {
             >
               {[
                 { value: '1886-9686', label: 'Plot Sizes (Sq. Ft.)' },
-                { value: '₹3100', label: 'Rate per Sq. Ft.' },
+                { value: '₹3500', label: 'Rate per Sq. Ft.' },
                 { value: '₹2,99,000', label: 'Infra Cost' }
               ].map((item, index) => (
                 <motion.div 

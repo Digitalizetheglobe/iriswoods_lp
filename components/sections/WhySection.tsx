@@ -83,7 +83,7 @@ export function WhySection() {
             </motion.div>
             <div>
               <h3 className="font-semibold text-lg text-[#333434] mb-2">
-                Hinjewadi's nearest & largest gated community
+                Hinjewadi's nearest & largest gated community.
               </h3>
             </div>
           </motion.div>
@@ -106,7 +106,7 @@ export function WhySection() {
             </motion.div>
             <div>
               <h3 className="font-semibold text-lg text-[#333434] mb-2">
-                Ideal for first-time homeowners
+                Ideal for first-time homeowners.
               </h3>
             </div>
           </motion.div>
@@ -129,7 +129,7 @@ export function WhySection() {
             </motion.div>
             <div>
               <h3 className="font-semibold text-lg text-[#333434] mb-2">
-                Seamless connectivity to Hinjewadi – PMC
+                Seamless connectivity to Hinjewadi – PMC.
               </h3>
             </div>
           </motion.div>
@@ -152,7 +152,7 @@ export function WhySection() {
             </motion.div>
             <div>
               <h3 className="font-semibold text-lg text-[#333434] mb-2">
-                Tamhini Ghat just 30 minutes away 🌿
+                Tamhini Ghat just 30 minutes away. 🌿
               </h3>
             </div>
           </motion.div>
@@ -175,7 +175,7 @@ export function WhySection() {
             </motion.div>
             <div>
               <h3 className="font-semibold text-lg text-[#333434] mb-2">
-                Pune's largest metro station just 10 minutes away 🚇
+                Pune's largest metro station just 10 minutes away. 🚇
               </h3>
             </div>
           </motion.div>
@@ -198,7 +198,7 @@ export function WhySection() {
             </motion.div>
             <div>
               <h3 className="font-semibold text-lg text-[#333434] mb-2">
-                Developing infrastructure & amenities
+                Developing infrastructure & amenities.
               </h3>
             </div>
           </motion.div>
@@ -221,7 +221,7 @@ export function WhySection() {
             </motion.div>
             <div>
               <h3 className="font-semibold text-lg text-[#333434] mb-2">
-                Megapolis Circle just 07 minutes away
+                Megapolis Circle just 07 minutes away.
               </h3>
             </div>
           </motion.div>
@@ -244,7 +244,7 @@ export function WhySection() {
             </motion.div>
             <div>
               <h3 className="font-semibold text-lg text-[#333434] mb-2">
-                Daily essentials just 5 minutes away in Ghotawade
+                Daily essentials just 5 minutes away in Ghotawade.
               </h3>
             </div>
           </motion.div>

@@ -4,8 +4,7 @@ import { motion, Variants } from 'framer-motion';
 import Image from 'next/image';
 
 export function AmenitiesSection() {
-  // Animation variants
-  const container : Variants = {
+  const container: Variants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
@@ -16,7 +15,7 @@ export function AmenitiesSection() {
     }
   };
 
-  const item : Variants = {
+  const item: Variants = {
     hidden: { opacity: 0, y: 20 },
     show: {
       opacity: 1,
@@ -28,7 +27,7 @@ export function AmenitiesSection() {
     }
   };
 
-  const title : Variants = {
+  const title: Variants = {
     hidden: { opacity: 0, y: -20 },
     show: {
       opacity: 1,
@@ -40,7 +39,7 @@ export function AmenitiesSection() {
     }
   };
 
-  const background : Variants = {
+  const background: Variants = {
     hidden: { opacity: 0 },
     show: {
       opacity: 1,
@@ -54,7 +53,7 @@ export function AmenitiesSection() {
   const amenities = [
     {
       icon: (
-        <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <svg className="w-8 h-8 text-[#097199]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M4 21V3m4 18V3m4 18V3m4 18V3m4 18V3" />
           <path d="M2 7h20M2 14h20" />
         </svg>
@@ -152,24 +151,20 @@ export function AmenitiesSection() {
           {amenities.map((amenity, index) => (
             <motion.div
               key={index}
-              className="relative p-3 w-full rounded-lg border border-white shadow-md hover:shadow-lg transition-all duration-300"
+              className="relative p-4 w-full rounded-lg border border-white shadow-md hover:shadow-lg transition-all duration-300 bg-white bg-opacity-60 backdrop-blur"
               variants={item}
               whileHover={{ 
                 scale: 1.03,
                 boxShadow: "0 10px 25px rgba(0,0,0,0.2)"
               }}
             >
-              <div className="absolute inset-0 bg-white bg-opacity-60 rounded-lg pointer-events-none" />
-              
-              <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex flex-col sm:flex-row justify-center items-center gap-2 sm:gap-4 md:gap-6">
-                  <div className="flex-shrink-0">
-                    {amenity.icon}
-                  </div>
-                  <h3 className="font-semibold text-black text-sm sm:text-base">
-                    {amenity.title}
-                  </h3>
+              <div className="flex flex-row items-center gap-4">
+                <div className="flex-shrink-0">
+                  {amenity.icon}
                 </div>
+                <h3 className="font-semibold text-black text-[12.7px] text-left">
+                  {amenity.title}
+                </h3>
               </div>
             </motion.div>
           ))}

@@ -5,7 +5,7 @@ import { scrollToSection } from '@/utils/helpers';
 
 export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
   return (
-    <header className="sticky top-0 z-50 bg-white shadow-md">
+    <header className="sticky top-0 z-50 bg-white shadow-md w-full">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <div className="flex items-center">
           <Image 
@@ -22,7 +22,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
             <button 
               key={section}
               onClick={() => scrollToSection(section)} 
-              className="text-gray-700 hover:text-[#097199] transition capitalize"
+              className="cursor-pointer text-gray-700 hover:text-[#097199] transition capitalize"
             >
               {section === 'home' ? 'Home' : 
                section === 'about' ? 'About Us' :
@@ -35,7 +35,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
 
         <button 
           onClick={onEnquireClick}
-          className="bg-[#097199] text-white px-4 py-2 rounded-md hover:bg-[#075a7a] transition"
+          className="bg-[#097199] text-white px-4 py-2 rounded-md hover:bg-[#075a7a] transition cursor-pointer"
         >
           Enquire Now
         </button>

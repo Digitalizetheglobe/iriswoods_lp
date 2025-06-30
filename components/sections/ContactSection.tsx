@@ -140,13 +140,14 @@ export function ContactSection() {
               {
                 icon: <FaPhoneAlt />,
                 title: 'Phone Number',
-                text: '+91 83789 44777'
+                text: <a href="tel:+918378944777" className="text-[#097199] hover:no-underline cursor-pointer">+91 83789 44777</a>
               },
               {
                 icon: <FaEnvelope />,
                 title: 'E-Mail',
-                text: 'info@risingspaces.in'
+                text: <a href="mailto:info@risingspaces.in" className="text-[#097199] hover:no-underline cursor-pointer">info@risingspaces.in</a>
               }
+
             ].map((contact, index) => (
               <motion.div
                 key={index}
