@@ -8,14 +8,14 @@ import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 export function GallerySection() {
   const galleryImages = [
     { src: '/images/gallery/children-play.jpeg', alt: 'Gallery Image 1', title: 'CHILDRENS GARDEN' },
-    { src: '/images/gallery/Childrens-Play-Area.jpg', alt: 'Gallery Image 4', title: 'CHILDRENS GARDEN' },
+    { src: '/images/gallery/Childrens-Play-Area.jpg', alt: 'Gallery Image 2', title: 'CHILDRENS GARDEN' },
     { src: '/images/gallery/Garden-With-Sitting-area.jpg', alt: 'Gallery Image 3', title: 'Garden' },
     { src: '/images/gallery/garden.jpeg', alt: 'Gallery Image 4', title: 'Garden' },
-    { src: '/images/gallery/MIDC-Takwe.jpg', alt: 'Gallery Image 4', title: 'MIDC Takeway' },
+    { src: '/images/gallery/MIDC-Takwe.jpg', alt: 'Gallery Image 5', title: 'MIDC Takeway' },
     { src: '/images/gallery/Pune-Mumbai-Highway.jpg', alt: 'Gallery Image 6', title: 'Pune MUmbai Highway' },
-    { src: '/images/gallery/road-side.jpeg', alt: 'Gallery Image 5', title: 'ROAD SIDE PLANTATION' },
-    { src: '/images/gallery/street.jpeg', alt: 'Gallery Image 5', title: 'Street Lamp' },
-    { src: '/images/gallery/Waterfalls.jpg', alt: 'Gallery Image 4', title: 'Waterfalls' },
+    { src: '/images/gallery/road-side.jpeg', alt: 'Gallery Image 7', title: 'ROAD SIDE PLANTATION' },
+    { src: '/images/gallery/street.jpeg', alt: 'Gallery Image 8', title: 'Street Lamp' },
+    { src: '/images/gallery/Waterfalls.jpg', alt: 'Gallery Image 9', title: 'Waterfalls' },
 
   ];
 
@@ -111,11 +111,12 @@ export function GallerySection() {
       {/* Modal */}
       {isOpen && (
         <div className="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center p-4">
-          <div className="relative w-full max-w-8xl h-[70vh] sm:h-[80vh]">
+          <div className="relative w-full max-w-4xl h-[70vh]">
+            
             {/* Close Button */}
             <button
               onClick={closeModal}
-              className="cursor-pointer absolute bottom-150 right-4 text-white text-xl md:text-2xl z-10"
+              className="absolute top-4 right-4 text-white text-2xl z-10"
               aria-label="Close"
             >
               <FaTimes />
@@ -124,24 +125,28 @@ export function GallerySection() {
             {/* Left Arrow */}
             <button
               onClick={goLeft}
-              className=" cursor-pointer absolute left-2 sm:left-4 top-1/2 transform -translate-y-1/2 text-white text-2xl sm:text-3xl z-10"
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-white text-3xl z-10"
               aria-label="Previous"
             >
               <FaChevronLeft />
             </button>
 
-            {/* Image */}
-            <Image
-              src={galleryImages[activeIndex].src}
-              alt={galleryImages[activeIndex].alt}
-              fill
-              className="object-contain rounded-xl"
-            />
+            {/* ✅ Image MUST be inside a relative container */}
+            <div className="relative w-full h-full">
+              <Image
+                src={galleryImages[activeIndex].src}
+                alt={galleryImages[activeIndex].alt}
+                fill
+                className="object-contain rounded-xl"
+                sizes="100vw"
+                priority
+              />
+            </div>
 
             {/* Right Arrow */}
             <button
               onClick={goRight}
-              className="cursor-pointer absolute right-2 sm:right-4 top-1/2 transform -translate-y-1/2 text-white text-2xl sm:text-3xl z-10"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-white text-3xl z-10"
               aria-label="Next"
             >
               <FaChevronRight />
@@ -149,6 +154,8 @@ export function GallerySection() {
           </div>
         </div>
       )}
+
+
     </>
   );
 }

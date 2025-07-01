@@ -37,7 +37,7 @@ export function AboutSection() {
   };
 
   return (
-    <section id="about" className="py-16 bg-white">
+    <section id="about" className="pt-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div 
           className="flex flex-col lg:flex-row items-center gap-12"

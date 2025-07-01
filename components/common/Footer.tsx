@@ -44,15 +44,15 @@ export function Footer() {
           {/* Center: Copyright */}
           <div className="text-[16px] text-white text-center">
             © {new Date().getFullYear()} Copyright RISING SPACES. All Rights Reserved. Carefully Crafted By{' '}
-            <span className="no-underline underline-offset-2 text-[#000]">
+            <span className="no-underline underline-offset-2 text-[#daf4fe]">
               <a href="https://digitalizetheglobe.com/" className='hover:text-[#b4cdd7]'>Digitalize The Globe</a>
             </span>
           </div>
 
           {/* Right: Policy Links */}
           <div className="flex space-x-4 text-sm text-white">
-            <a href="/privacy-policy" className="hover:underline underline-offset-2">Privacy Policy</a>
-            <a href="/terms-and-conditions" className="hover:underline underline-offset-2">Terms & Conditions</a>
+            {/* <a href="/privacy-policy" className="hover:underline underline-offset-2">Privacy Policy</a>
+            <a href="/terms-and-conditions" className="hover:underline underline-offset-2">Terms & Conditions</a> */}
           </div>
         </div>
       </footer>

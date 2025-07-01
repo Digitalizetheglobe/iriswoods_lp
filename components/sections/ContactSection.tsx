@@ -131,7 +131,7 @@ const [errorMessage, setErrorMessage] = useState('');
             {
               icon: <FaEnvelope />,
               title: 'E-Mail',
-              text: <a href="mailto:info@risingspaces.in" className="text-[#097199]">info@risingspaces.in</a>
+              text: <a href="mailto:info@risingspaces.in" className="hover:text-[#097199]">info@risingspaces.in</a>
             }].map((contact, index) => (
               <motion.div
                 key={index}
