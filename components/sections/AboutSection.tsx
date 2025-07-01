@@ -57,9 +57,7 @@ export function AboutSection() {
                 We are a global, boutique real estate brokerage offering premium NA residential plots near Hinjewadi Phase III, Ghotawade.
               </motion.p>
               <motion.p variants={item}>
-                In the United States, the transfer acquisition of real estate. The bank's gross income is $100 million to customers. 
-                Sales and expenses from sales include cash in stores, loans, ponds, foreign fees, and tax rates that are free of use, 
-                sale, transmission, and credit rating, or expense.
+                Experience city life with a refreshing twist at IRIS WOODS, where extra oxygen and lush greenery await you! Exciting new residential NA plots are launching soon near Hinjewadi Phase III, Ghotawade, offering the perfect blend of urban convenience and natural tranquility. Build your dream home in this vibrant, eco-friendly community!
               </motion.p>
             </motion.div>
 

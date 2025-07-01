@@ -49,8 +49,8 @@ export function Footer() {
           {/* Center: Copyright */}
           <div className="text-[16px] text-white text-center">
             © {new Date().getFullYear()} Copyright RISING SPACES. All Rights Reserved. Carefully Crafted By{' '}
-            <span className="no-underline underline-offset-2 text-[#3eb6e6]">
-              <a href="https://digitalizetheglobe.com/">Digitalize The Globe</a>
+            <span className="no-underline underline-offset-2 text-[#000]">
+              <a href="https://digitalizetheglobe.com/" className='hover:text-[#b4cdd7]'>Digitalize The Globe</a>
             </span>
           </div>
 
@@ -67,7 +67,7 @@ export function Footer() {
         {/* WhatsApp Button - Bottom Left */}
         <button
           onClick={() => setShowWhatsAppChat(!showWhatsAppChat)}
-          className="fixed bottom-6 left-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 z-50 cursor-pointer"
+          className="fixed bottom-15 left-6 bg-green-500 text-white p-3 rounded-full shadow-lg hover:bg-green-600 z-50 cursor-pointer"
           aria-label="WhatsApp"
         >
           <FaWhatsapp size={20} />
@@ -75,7 +75,7 @@ export function Footer() {
 
         {/* WhatsApp Chat Popup */}
         {showWhatsAppChat && (
-          <div className="fixed bottom-20 left-6 w-72 bg-white rounded-lg shadow-lg z-50 border">
+          <div className="fixed bottom-30 left-6 w-72 bg-white rounded-lg shadow-lg z-50 border">
             <div className="p-3 border-b bg-[#097199] text-white font-bold flex justify-between items-center">
               <span>Rising Spaces</span>
               <button className='cursor-pointer' onClick={() => setShowWhatsAppChat(false)}>✕</button>
@@ -100,7 +100,7 @@ export function Footer() {
         )}
 
         {/* Call + Scroll to Top - Bottom Right */}
-        <div className="fixed bottom-6 right-6 flex flex-col items-end space-y-3 z-50">
+        <div className="fixed bottom-15 right-6 flex flex-col items-end space-y-3 z-50">
           <a
             href="tel:+918378944777"
             className="bg-blue-500 text-white p-3 rounded-full shadow-lg hover:bg-blue-600 cursor-pointer"
