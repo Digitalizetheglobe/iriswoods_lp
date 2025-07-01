@@ -38,12 +38,7 @@ export function Footer() {
           {/* Left: Logo + Social Icons */}
           <div className="flex items-center space-x-6">
             <Image src="/iris-white.png" alt="Logo" width={120} height={40} />
-            <div className="flex space-x-3 text-white">
-              <a href="#" aria-label="Facebook"><FaFacebookF /></a>
-              <a href="#" aria-label="Instagram"><FaInstagram /></a>
-              <a href="#" aria-label="Twitter"><FaTwitter /></a>
-              <a href="#" aria-label="YouTube"><FaYoutube /></a>
-            </div>
+            
           </div>
 
           {/* Center: Copyright */}
