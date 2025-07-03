@@ -94,7 +94,7 @@ export function AmenitiesSection() {
     },
     {
       icon: <Image src="/club.png" alt="Clubhouse" width={30} height={30} className="object-contain" />,
-      title: "GRAND CLUB HOUSE"
+      title: "CLUB HOUSE"
     },
     {
       icon: <Image src="/street-light.png" alt="Lighting" width={30} height={30} className="object-contain" />,
