@@ -21,7 +21,7 @@ export function Modal({
           <h3 className="text-xl font-bold text-center text-[#097199]">Enquiry Form</h3>
           <button
             onClick={onClose}
-            className="absolute top-0 right-0 text-gray-500 hover:text-gray-700"
+            className="absolute top-0 right-0 text-gray-500 hover:text-gray-700 cursor-pointer"
           >
             ✕
           </button>

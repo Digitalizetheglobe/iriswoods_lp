@@ -15,7 +15,14 @@ export function GallerySection() {
     { src: '/images/gallery/Pune-Mumbai-Highway.jpg', alt: 'Gallery Image 6', title: 'Pune MUmbai Highway' },
     { src: '/images/gallery/road-side.jpeg', alt: 'Gallery Image 7', title: 'ROAD SIDE PLANTATION' },
     { src: '/images/gallery/street.jpeg', alt: 'Gallery Image 8', title: 'Street Lamp' },
-    { src: '/images/gallery/Waterfalls.jpg', alt: 'Gallery Image 9', title: 'Waterfalls' },
+    { src: '/images/gallery/04.png', alt: 'Rising', title: 'Rising' },
+    { src: '/images/gallery/05.png', alt: 'Rising', title: 'Rising' },
+    { src: '/images/gallery/06.png', alt: 'Rising', title: 'Rising' },
+    { src: '/images/gallery/07.png', alt: 'Rising', title: 'Rising' },
+    { src: '/images/gallery/08.png', alt: 'Rising', title: 'Rising' },
+    { src: '/images/gallery/09.png', alt: 'Rising', title: 'Rising' },
+    { src: '/images/gallery/10.png', alt: 'Rising', title: 'Rising' },
+
 
   ];
 
@@ -116,7 +123,7 @@ export function GallerySection() {
             {/* Close Button */}
             <button
               onClick={closeModal}
-              className="absolute top-4 right-4 text-white text-2xl z-10"
+              className="absolute top-4 right-4 text-white text-2xl z-10 cursor-pointer"
               aria-label="Close"
             >
               <FaTimes />
@@ -125,7 +132,7 @@ export function GallerySection() {
             {/* Left Arrow */}
             <button
               onClick={goLeft}
-              className="absolute left-4 top-1/2 -translate-y-1/2 text-white text-3xl z-10"
+              className="absolute left-4 top-1/2 -translate-y-1/2 text-white text-3xl z-10 cursor-pointer"
               aria-label="Previous"
             >
               <FaChevronLeft />
@@ -146,7 +153,7 @@ export function GallerySection() {
             {/* Right Arrow */}
             <button
               onClick={goRight}
-              className="absolute right-4 top-1/2 -translate-y-1/2 text-white text-3xl z-10"
+              className="absolute right-4 top-1/2 -translate-y-1/2 text-white text-3xl z-10 cursor-pointer"
               aria-label="Next"
             >
               <FaChevronRight />

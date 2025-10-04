@@ -11,9 +11,12 @@ import { AmenitiesSection } from '@/components/sections/AmenitiesSection';
 import { GallerySection } from '@/components/sections/GallerySection';
 import { LocationSection } from '@/components/sections/LocationSection';
 import { ContactSection } from '@/components/sections/ContactSection';
+import LayoutSection from "@/components/sections/LayoutSection";
 import { Header } from '@/components/common/Header';
 import { Modal } from '@/components/common/Modal';
 import { Footer } from '@/components/common/Footer';
+
+
 
 export default function Home() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -29,6 +32,7 @@ export default function Home() {
         <WhySection />
         <AmenitiesSection />
         <GallerySection />
+        <LayoutSection />
         <LocationSection />
         <ContactSection />
       </main>

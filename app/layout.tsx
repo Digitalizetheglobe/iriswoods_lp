@@ -68,8 +68,8 @@ export default function RootLayout({
           className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50"
           style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}
         >
-          <button className="bg-[#097199] text-white font-bold py-2 px-3 rounded-l-md shadow-lg hover:bg-[#075a7a] transition duration-300">
-            ENQUIRE NOW
+          <button className="bg-[#097199] text-white font-bold py-2 px-3 rounded-l-md shadow-lg hover:bg-[#075a7a] transition duration-300 cursor-pointer">
+            Download Broucher
           </button>
         </a>
       </body>

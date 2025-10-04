@@ -228,12 +228,12 @@ const [errorMessage, setErrorMessage] = useState('');
 
             <motion.button
               type="submit"
-              className="w-full bg-[#097199] hover:bg-[#232424] text-white py-3 rounded-md text-sm font-semibold transition"
+              className="w-full bg-[#097199] hover:bg-[#075a7a] text-white py-3 rounded-md text-sm font-semibold transition"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               variants={formItem}
             >
-              Submit
+              Download Broucher
             </motion.button>
           </form>
         </motion.div>
