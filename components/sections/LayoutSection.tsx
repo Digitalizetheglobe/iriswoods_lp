@@ -1,8 +1,10 @@
 // components/LayoutSection.tsx
 
 import Image from "next/image";
+import { useState } from "react";
 
 export default function LayoutSection() {
+  const [isImageModalOpen, setIsImageModalOpen] = useState(false);
   return (
     <section className="py-16 bg-white" id="layout">
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
@@ -20,7 +22,8 @@ export default function LayoutSection() {
               alt="Master Layout"
               width={600}
               height={400}
-              className="rounded-md mx-auto"
+              className="rounded-md mx-auto cursor-pointer hover:opacity-90 transition-opacity"
+              onClick={() => setIsImageModalOpen(true)}
             />
             <div className="mt-4">
               <h3 className="text-lg font-semibold text-gray-800">
@@ -76,6 +79,31 @@ export default function LayoutSection() {
           </div>
         </div>
       </div>
+
+      {/* Image Modal */}
+      {isImageModalOpen && (
+        <div 
+          className="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 p-4"
+          onClick={() => setIsImageModalOpen(false)}
+        >
+          <div className="relative max-w-6xl max-h-[90vh] w-full">
+            <button
+              onClick={() => setIsImageModalOpen(false)}
+              className="absolute -top-10 right-0 text-white text-2xl font-bold hover:text-gray-300 cursor-pointer z-10"
+            >
+              ✕
+            </button>
+            <Image
+              src="/images/layout.png"
+              alt="Master Layout - Full Size"
+              width={1200}
+              height={800}
+              className="rounded-lg shadow-2xl w-full h-auto max-h-[90vh] object-contain"
+              onClick={(e) => e.stopPropagation()}
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 }

@@ -59,7 +59,7 @@ export default function RootLayout({
           ]
         }) }} />
       </head>
-      <body className={inter.className}>
+      <body className={inter.className} suppressHydrationWarning={true}>
         {children}
 
         {/* Enquire Now Button */}
