@@ -8,6 +8,7 @@
     "start": "next start",
     "lint": "next lint"
   },
+  
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "framer-motion": "^12.19.1",
