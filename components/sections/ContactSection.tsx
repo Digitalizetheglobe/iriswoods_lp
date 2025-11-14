@@ -121,12 +121,12 @@ const [errorMessage, setErrorMessage] = useState('');
             {[{
               icon: <FaMapMarkerAlt />,
               title: 'Address',
-              text: 'Near Hinjewadi Phase III, Ghotawade - 410205'
+              text: 'S. No. 261, Near Laxmi Chowk, Marunji Road, Hinjawadi, Pune'
             },
             {
               icon: <FaPhoneAlt />,
               title: 'Phone Number',
-              text: <a href="tel:+918378944777" className="hover:text-[#097199]">+91 83789 44777</a>
+              text: <a href="tel:+918378944777" className="hover:text-[#097199]">+91 80073 37788</a>
             },
             {
               icon: <FaEnvelope />,

@@ -3,9 +3,9 @@
 import { motion, Variants } from 'framer-motion';
 import Image from 'next/image';
 
-import BannerDesktop from '../../public/images/Banner.jpeg';
-import BannerTablet from '../../public/images/tab_banner.jpeg';
-import BannerMobile from '../../public/images/phone_banner.jpeg';
+import BannerDesktop from '../../public/images/Banner.jpg';
+import BannerTablet from '../../public/images/tab_banner.jpg';
+import BannerMobile from '../../public/images/phone_banner.jpg';
 
 export function HeroSection() {
   const container: Variants = {
