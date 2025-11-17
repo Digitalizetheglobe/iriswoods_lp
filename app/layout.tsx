@@ -1,6 +1,9 @@
 import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import './globals.css';
+import { ModalProvider } from '@/components/providers/ModalProvider';
+import { DownloadBrochureButton } from '@/components/common/DownloadBrochureButton';
+import { GlobalModal } from '@/components/common/GlobalModal';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -60,18 +63,17 @@ export default function RootLayout({
         }) }} />
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>
-        {children}
+        <ModalProvider>
+          {children}
 
-        {/* Enquire Now Button */}
-        <a
-          href="#contact" // or your contact link
-          className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50"
-          style={{ writingMode: 'vertical-rl', textOrientation: 'mixed' }}
-        >
-          <button className="bg-[#097199] text-white font-bold py-2 px-3 rounded-l-md shadow-lg hover:bg-[#075a7a] transition duration-300 cursor-pointer">
-            Download Broucher
-          </button>
-        </a>
+          {/* Download Broucher Button */}
+          <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
+            <DownloadBrochureButton />
+          </div>
+
+          {/* Global Modal */}
+          <GlobalModal />
+        </ModalProvider>
       </body>
     </html>
   );

@@ -2,7 +2,6 @@
 
 import { useState } from 'react';
 import { motion, Variants } from 'framer-motion';
-import emailjs from '@emailjs/browser';
 import {
   FaMapMarkerAlt,
   FaPhoneAlt,
@@ -22,6 +21,7 @@ export function ContactSection() {
 
 const [isSubmitted, setIsSubmitted] = useState(false);
 const [errorMessage, setErrorMessage] = useState('');
+const [consent, setConsent] = useState(false);
 
   const container: Variants = {
     hidden: { opacity: 0 },
@@ -62,6 +62,10 @@ const [errorMessage, setErrorMessage] = useState('');
     }
   };
 
+  const handleConsentChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    setConsent(e.target.checked);
+  };
+
   const handleContactSubmit = async (e: React.FormEvent) => {
   e.preventDefault();
   setErrorMessage(''); // Clear previous error
@@ -78,22 +82,37 @@ const [errorMessage, setErrorMessage] = useState('');
     return;
   }
 
-  const templateParams = { name, email, phone, message };
+  if (!consent) {
+    setErrorMessage('Please accept the terms and conditions to proceed.');
+    return;
+  }
 
   try {
-    await emailjs.send(
-      'service_nxstnri',
-      'template_p3qc84n',
-      templateParams,
-      'WBMxQAh3tcC8dFXf8'
-    );
+    const response = await fetch('https://api.risingspaces.in/api/forms/forms/691adb25c476888712e4c341/submit', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ 
+        data: { name, email, phone, message }
+      }),
+    });
+
+    const responseData = await response.json().catch(() => null);
+
+    if (!response.ok) {
+      const errorMsg = responseData?.message || responseData?.error || `Server error: ${response.status}`;
+      console.error('API Error Response:', response.status, responseData);
+      throw new Error(errorMsg);
+    }
 
     setIsSubmitted(true);
     setFormData({ name: '', email: '', phone: '', message: '' });
+    setConsent(false);
     setTimeout(() => setIsSubmitted(false), 3000);
   } catch (error) {
-    console.error('EmailJS Error:', error);
-    setErrorMessage('Failed to send. Please try again later.');
+    console.error('API Error:', error);
+    setErrorMessage(error instanceof Error ? error.message : 'Failed to send. Please try again later.');
   }
 };
 
@@ -224,6 +243,19 @@ const [errorMessage, setErrorMessage] = useState('');
                 required
                 className="w-full border-b border-gray-300 focus:outline-none placeholder:text-gray-400 py-2 text-[#097199] focus:border-[#097199]"
               />
+            </motion.div>
+
+            <motion.div variants={formItem} className="flex items-start space-x-2">
+              <input
+                type="checkbox"
+                id="consent"
+                checked={consent}
+                onChange={handleConsentChange}
+                className="mt-1 w-4 h-4 text-[#097199] border-gray-300 rounded focus:ring-[#097199] focus:ring-2 cursor-pointer"
+              />
+              <label htmlFor="consent" className="text-sm text-gray-600 cursor-pointer">
+              Yes, I consent to the Privacy Policy and Terms and Conditions.
+              </label>
             </motion.div>
 
             <motion.button
