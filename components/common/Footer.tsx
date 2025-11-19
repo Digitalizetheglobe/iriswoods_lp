@@ -55,7 +55,7 @@ export function Footer() {
 
           {/* Right: Policy Links */}
           <div className="flex space-x-4 text-sm text-white">
-            <a href="https://risingspaces.in/privacy-policy" target="_blank" rel="noopener noreferrer" className="hover:underline underline-offset-2">Privacy Policy</a>
+            <a href="/privacy-policy" className="hover:underline underline-offset-2">Privacy Policy</a>
           </div>
         </div>
       </footer>

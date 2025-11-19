@@ -48,9 +48,9 @@ export function AboutSection() {
         >
           {/* Text Section */}
           <div className="lg:w-1/2 w-full">
-            <motion.h2 variants={item} className="text-3xl sm:text-4xl font-bold text-[#097199] mb-6">
+            <motion.h1 variants={item} className="text-3xl sm:text-4xl font-bold text-[#097199] mb-6">
               About IRIS WOODS
-            </motion.h2>
+            </motion.h1>
             
             <motion.div variants={container} className="text-gray-700 space-y-4 text-base sm:text-[17px]">
               <motion.p variants={item}>
