@@ -91,7 +91,7 @@ export function AboutSection() {
           >
             <div className="relative h-64 sm:h-80 md:h-96 w-full rounded-lg overflow-hidden shadow-lg">
               <Image 
-                src="/images/about_image.jpeg" 
+                src="/images/about-section.jpg" 
                 alt="About IRIS WOODS" 
                 fill
                 className="object-cover hover:scale-105 transition-transform duration-300"
