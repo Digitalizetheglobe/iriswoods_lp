@@ -14,6 +14,9 @@ export const metadata: Metadata = {
     index: true,
     follow: true,
   },
+  other: {
+    'keywords': 'Iris Wood NA plots, Iris Woods Hinjewadi, Iris Wood Pune, NA plots near Hinjewadi, NA plots Pune, Residential plots Hinjewadi Phase 3, na plots near hinjewadi, plots near hinjewadi pune',
+  },
 };
 
 export default function RootLayout({
