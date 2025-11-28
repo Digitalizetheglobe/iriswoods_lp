@@ -100,15 +100,7 @@ export function GallerySection() {
                   className="object-cover"
                   sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 />
-                {image.title && (
-                  <motion.div
-                    className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4"
-                    initial={{ opacity: 0 }}
-                    whileHover={{ opacity: 1 }}
-                  >
-                    <h3 className="text-white font-medium text-lg">{image.title}</h3>
-                  </motion.div>
-                )}
+
               </motion.div>
             ))}
           </motion.div>
