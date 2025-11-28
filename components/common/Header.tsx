@@ -21,7 +21,10 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
     <header className="sticky top-0 z-50 bg-white shadow-md w-full">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center">
+        <div 
+          className="flex items-center cursor-pointer"
+          onClick={() => handleNavClick('home')}
+        >
           <Image 
             src="/logo.png" 
             alt="IRIS WOODS Logo" 
@@ -58,7 +61,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
-          <button onClick={handleMenuToggle} className="text-2xl text-[#097199]">
+          <button onClick={handleMenuToggle} className="text-2xl text-[#097199] cursor-pointer">
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
@@ -71,7 +74,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
             <button 
               key={section}
               onClick={() => handleNavClick(section)} 
-              className="block w-full text-left text-gray-700 hover:text-[#097199] transition capitalize"
+              className="block w-full text-left text-gray-700 hover:text-[#097199] transition capitalize cursor-pointer"
             >
               {section === 'home' ? 'Home' : 
                section === 'about' ? 'About Us' :

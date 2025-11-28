@@ -7,21 +7,21 @@ import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa';
 
 export function GallerySection() {
   const galleryImages = [
-    { src: '/images/gallery/children-play.jpeg', alt: 'Gallery Image 1', title: 'CHILDRENS GARDEN' },
-    { src: '/images/gallery/Childrens-Play-Area.jpg', alt: 'Gallery Image 2', title: 'CHILDRENS GARDEN' },
-    { src: '/images/gallery/Garden-With-Sitting-area.jpg', alt: 'Gallery Image 3', title: 'Garden' },
-    { src: '/images/gallery/garden.jpeg', alt: 'Gallery Image 4', title: 'Garden' },
-    { src: '/images/gallery/MIDC-Takwe.jpg', alt: 'Gallery Image 5', title: 'MIDC Takeway' },
-    { src: '/images/gallery/Pune-Mumbai-Highway.jpg', alt: 'Gallery Image 6', title: 'Pune MUmbai Highway' },
-    { src: '/images/gallery/road-side.jpeg', alt: 'Gallery Image 7', title: 'ROAD SIDE PLANTATION' },
-    { src: '/images/gallery/street.jpeg', alt: 'Gallery Image 8', title: 'Street Lamp' },
-    { src: '/images/gallery/04.png', alt: 'Rising', title: 'Rising' },
-    { src: '/images/gallery/05.png', alt: 'Rising', title: 'Rising' },
-    { src: '/images/gallery/06.png', alt: 'Rising', title: 'Rising' },
-    { src: '/images/gallery/07.png', alt: 'Rising', title: 'Rising' },
-    { src: '/images/gallery/08.png', alt: 'Rising', title: 'Rising' },
-    { src: '/images/gallery/09.png', alt: 'Rising', title: 'Rising' },
-    { src: '/images/gallery/10.png', alt: 'Rising', title: 'Rising' },
+    { src: '/images/gallery/children-play.jpeg', alt: 'Gallery Image 1' },
+    { src: '/images/gallery/Childrens-Play-Area.jpg', alt: 'Gallery Image 2' },
+    { src: '/images/gallery/Garden-With-Sitting-area.jpg', alt: 'Gallery Image 3' },
+    { src: '/images/gallery/garden.jpeg', alt: 'Gallery Image 4' },
+    { src: '/images/gallery/MIDC-Takwe.jpg', alt: 'Gallery Image 5' },
+    { src: '/images/gallery/Pune-Mumbai-Highway.jpg', alt: 'Gallery Image 6' },
+    { src: '/images/gallery/road-side.jpeg', alt: 'Gallery Image 7' },
+    { src: '/images/gallery/street.jpeg', alt: 'Gallery Image 8' },
+    { src: '/images/gallery/04.png', alt: 'Gallery Image 9'},
+    { src: '/images/gallery/05.png', alt: 'Gallery Image 10'},
+    { src: '/images/gallery/06.png', alt: 'Gallery Image 11'},
+    { src: '/images/gallery/07.png', alt: 'Gallery Image 12'},
+    { src: '/images/gallery/08.png', alt: 'Gallery Image 13'},
+    { src: '/images/gallery/09.png', alt: 'Gallery Image 14'},
+    { src: '/images/gallery/10.png', alt: 'Gallery Image 15'},
 
 
   ];

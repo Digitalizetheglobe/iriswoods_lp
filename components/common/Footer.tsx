@@ -41,7 +41,7 @@ export function Footer() {
         <div className="container mx-auto px-6 flex flex-col md:flex-row items-center justify-between space-y-4 md:space-y-0">
           {/* Left: Logo + Social Icons */}
           <div className="flex items-center space-x-6">
-            <Image src="/iris-white.png" alt="Logo" width={120} height={40} />
+            <Image src="/white.png" alt="Logo" width={120} height={40} />
             
           </div>
 

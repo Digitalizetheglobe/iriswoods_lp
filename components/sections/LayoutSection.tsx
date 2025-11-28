@@ -71,7 +71,7 @@ export default function LayoutSection() {
                 Download complete plot list with sizes, pricing, and availability
               </p>
                 <a href="#contact">
-                <button className="bg-white text-[#097199] font-semibold px-6 py-2 rounded-md hover:bg-gray-100 transition cursor-pointer">
+                <button className="bg-white text-[#097199] hover:text-white hover:bg-[#097199] border font-semibold px-6 py-2 rounded-md transition cursor-pointer">
                     Request Plot Details
                 </button>
                 </a>

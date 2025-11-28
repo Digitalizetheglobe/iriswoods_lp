@@ -1,11 +1,6 @@
 'use client';
 
 import { motion, Variants } from 'framer-motion';
-import Image from 'next/image';
-
-import BannerDesktop from '../../public/banner.jpg';
-import BannerTablet from '../../public/tab_banner.jpg';
-import BannerMobile from '../../public/phone_banner.jpg';
 
 export function HeroSection() {
   const container: Variants = {
@@ -19,47 +14,44 @@ export function HeroSection() {
   return (
     <motion.section
       id="home"
-      className="relative w-ful h-[650px] overflow-hidden"
+      className="relative w-full h-[400px] sm:h-[500px] md:h-[450px] lg:h-[700px] xl:h-[800px] overflow-hidden"
       initial="hidden"
       animate="show"
       variants={container}
     >
       {/* Desktop */}
       <div className="hidden md:block absolute inset-0">
-        <Image
-          src={BannerDesktop}
-          alt="Desktop Banner"
-          fill
-          priority
-          quality={100}
-          className="object-cover"
-          sizes="100vw"
+        <video
+          src="/banner.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
         />
       </div>
 
       {/* Tablet */}
       <div className="hidden sm:block md:hidden absolute inset-0">
-        <Image
-          src={BannerTablet}
-          alt="Tablet Banner"
-          fill
-          priority
-          quality={100}
-          className="object-cover"
-          sizes="100vw"
+        <video
+          src="/tab_banner.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
         />
       </div>
 
       {/* Mobile */}
       <div className="sm:hidden absolute inset-0">
-        <Image
-          src={BannerMobile}
-          alt="Mobile Banner"
-          fill
-          priority
-          quality={100}
-          className="object-cover"
-          sizes="100vw"
+        <video
+          src="/tab_banner.mp4"
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="w-full h-full object-cover"
         />
       </div>
     </motion.section>

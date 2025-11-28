@@ -140,7 +140,7 @@ const [consent, setConsent] = useState(false);
             {[{
               icon: <FaMapMarkerAlt />,
               title: 'Address',
-              text: 'S. No. 261, Near Laxmi Chowk, Marunji Road, Hinjawadi, Pune'
+              text: <a href="https://www.google.com/maps?q=S.+No.+261,+Near+Laxmi+Chowk,+Marunji+Road,+Hinjawadi,+Pune" target="_blank" rel="noopener noreferrer" className="hover:text-[#097199]">S. No. 261, Near Laxmi Chowk, Marunji Road, Hinjawadi, Pune</a>
             },
             {
               icon: <FaPhoneAlt />,
@@ -260,7 +260,7 @@ const [consent, setConsent] = useState(false);
 
             <motion.button
               type="submit"
-              className="w-full bg-[#097199] hover:bg-[#075a7a] text-white py-3 rounded-md text-sm font-semibold transition"
+              className="w-full bg-[#097199] hover:bg-[#075a7a] text-white py-3 rounded-md text-sm font-semibold transition cursor-pointer"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               variants={formItem}

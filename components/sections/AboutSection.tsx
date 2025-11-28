@@ -89,12 +89,12 @@ export function AboutSection() {
             className="lg:w-1/2 w-full"
             variants={imageAnimation}
           >
-            <div className="relative h-64 sm:h-80 md:h-96 w-full rounded-lg overflow-hidden shadow-lg">
+            <div className="relative h-66 sm:h-80 md:h-140 w-full rounded-lg overflow-hidden shadow-lg">
               <Image 
                 src="/images/about_banner.jpg" 
                 alt="About IRIS WOODS" 
                 fill
-                className="object-cover hover:scale-105 transition-transform duration-300"
+                className="object-cover  transition-transform duration-300"
               />
             </div>
           </motion.div>
