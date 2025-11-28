@@ -26,7 +26,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
           onClick={() => handleNavClick('home')}
         >
           <Image 
-            src="/logo.png" 
+            src="/black.png" 
             alt="codename tathastu Logo" 
             width={120} 
             height={60} 
