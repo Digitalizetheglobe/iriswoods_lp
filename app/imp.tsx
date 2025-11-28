@@ -72,7 +72,7 @@ const images = [img, img1, img2, img3, img4, img5];
           <div className="flex items-center">
             <Image 
               src="/logo.png" 
-              alt="IRIS WOODS Logo" 
+              alt="Codename Tathastu Logo" 
               width={120} 
               height={60} 
               className="h-12 w-auto"
@@ -128,7 +128,7 @@ const images = [img, img1, img2, img3, img4, img5];
         <div className="h-screen max-h-[800px] w-full">
           <Image 
             src="/banner.png" 
-            alt="IRIS WOODS Banner" 
+            alt="Codename Tathastu Banner" 
             layout="fill" 
             objectFit="cover" 
             quality={100}
@@ -150,7 +150,7 @@ const images = [img, img1, img2, img3, img4, img5];
           <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* Left Side - Content */}
             <div className="lg:w-1/2">
-              <h2 className="text-3xl font-bold text-[#097199] mb-6">About IRIS WOODS</h2>
+              <h2 className="text-3xl font-bold text-[#097199] mb-6">About Codename Tathastu</h2>
               <div className="text-gray-700 space-y-4">
                 <p>
                   We are a global, boutique real estate brokerage offering premium NA residential plots near Hinjewadi Phase III, Ghotawade.
@@ -184,7 +184,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="relative h-96 w-full rounded-lg overflow-hidden shadow-lg">
                 <Image 
                   src="/about_image.jpeg" 
-                  alt="About IRIS WOODS" 
+                  alt="About Codename Tathastu" 
                   layout="fill" 
                   objectFit="cover" 
                   className="hover:scale-105 transition-transform duration-300"
@@ -217,7 +217,7 @@ const images = [img, img1, img2, img3, img4, img5];
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-[#fff] mb-4">Project Overview</h2>
             <p className="text-[#e7f7fe] text-lg max-w-2xl mx-auto">
-              Discover the key details of IRIS WOODS, your gateway to premium living
+              Discover the key details of Codename Tathastu, your gateway to premium living
             </p>
           </div>
 
@@ -270,15 +270,15 @@ const images = [img, img1, img2, img3, img4, img5];
 
       </motion.section>
 
-      {/* Why IRIS WOODS Section */}
+      {/* Why Codename Tathastu Section */}
       <motion.section id="why-iris" className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold text-[#097199] mb-4">
-              Why <span className="text-[#097199]">IRIS WOODS</span>?
+              Why <span className="text-[#097199]">Codename Tathastu</span>?
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Discover the advantages that make IRIS WOODS your perfect choice
+              Discover the advantages that make Codename Tathastu your perfect choice
             </p>
           </div>
 
@@ -903,7 +903,7 @@ const images = [img, img1, img2, img3, img4, img5];
               </div>
               <p className="text-gray-600 mb-8">
                 Our expert team is ready to assist you with site visits,
-                documentation, and answer all your questions about IRIS WOODS.
+                documentation, and answer all your questions about Codename Tathastu.
               </p>
             </div>
 
@@ -1005,13 +1005,13 @@ const images = [img, img1, img2, img3, img4, img5];
           <div className="flex justify-center mb-6">
             <Image 
               src="/logo.png" 
-              alt="IRIS WOODS Logo" 
+              alt="Codename Tathastu Logo" 
               width={150} 
               height={75} 
               className="h-16 w-auto"
             />
           </div>
-          <p className="text-gray-400">© 2025 IRIS WOODS. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Codename Tathastu. All rights reserved.</p>
         </div>
       </motion.section>
 

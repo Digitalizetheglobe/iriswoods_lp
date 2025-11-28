@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Footer } from '@/components/common/Footer';
 
 export const metadata: Metadata = {
-  title: 'Privacy Policy - IRIS WOODS ',
-  description: 'Privacy Policy for IRIS WOODS  - Premium Residential Plots',
+  title: 'Privacy Policy - Codename Tathastu ',
+  description: 'Privacy Policy for Codename Tathastu  - Premium Residential Plots',
   robots: {
     index: false,
     follow: false,
@@ -21,7 +21,7 @@ export default function PrivacyPolicyPage() {
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center">
             <a href="/" className="text-2xl font-bold text-[#097199]">
-              IRIS WOODS 
+              Codename Tathastu 
             </a>
           </div>
           <a
@@ -45,7 +45,7 @@ export default function PrivacyPolicyPage() {
             <section>
               <h2 className="text-2xl font-semibold text-[#097199] mb-4">1. Introduction</h2>
               <p className="mb-4">
-                Welcome to IRIS WOODS , a premium residential plots project by RISING SPACES. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong>codenameiriswoods.com</strong> and use our services.
+                Welcome to Codename Tathastu , a premium residential plots project by RISING SPACES. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong>codenameiriswoods.com</strong> and use our services.
               </p>
               <p>
                 By using our website and services, you consent to the collection and use of information in accordance with this Privacy Policy.
@@ -214,7 +214,7 @@ export default function PrivacyPolicyPage() {
 
           <div className="mt-12 pt-8 border-t border-gray-300">
             <p className="text-sm text-gray-500 text-center">
-              This Privacy Policy is effective as of the date stated above and applies to all users of the IRIS WOODS  website.
+              This Privacy Policy is effective as of the date stated above and applies to all users of the Codename Tathastu  website.
             </p>
           </div>
         </div>

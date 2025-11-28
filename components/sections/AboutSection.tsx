@@ -49,7 +49,7 @@ export function AboutSection() {
           {/* Text Section */}
           <div className="lg:w-1/2 w-full">
             <motion.h1 variants={item} className="text-3xl sm:text-4xl font-bold text-[#097199] mb-6">
-              About IRIS WOODS
+              About Codename Tathastu
             </motion.h1>
             
             <motion.div variants={container} className="text-gray-700 space-y-4 text-base sm:text-[17px]">
@@ -57,7 +57,7 @@ export function AboutSection() {
                 We are a global, boutique real estate brokerage offering premium NA residential plots near Hinjewadi Phase III, Ghotawade.
               </motion.p>
               <motion.p variants={item}>
-                Experience city life with a refreshing twist at IRIS WOODS, where extra oxygen and lush greenery await you! Exciting new residential NA plots are launching soon near Hinjewadi Phase III, Ghotawade, offering the perfect blend of urban convenience and natural tranquility. Build your dream home in this vibrant, eco-friendly community!
+                Experience city life with a refreshing twist at Codename Tathastu, where extra oxygen and lush greenery await you! Exciting new residential NA plots are launching soon near Hinjewadi Phase III, Ghotawade, offering the perfect blend of urban convenience and natural tranquility. Build your dream home in this vibrant, eco-friendly community!
               </motion.p>
             </motion.div>
 
@@ -92,7 +92,7 @@ export function AboutSection() {
             <div className="relative h-66 sm:h-80 md:h-140 w-full rounded-lg overflow-hidden shadow-lg">
               <Image 
                 src="/images/about_banner.jpg" 
-                alt="About IRIS WOODS" 
+                alt="About Codename Tathastu" 
                 fill
                 className="object-cover  transition-transform duration-300"
               />

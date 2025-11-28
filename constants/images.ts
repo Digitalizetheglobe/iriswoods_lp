@@ -6,10 +6,10 @@ import img5 from '@/public/images/5.png';
 import img6 from '@/public/images/6.png';
 
 export const GALLERY_IMAGES = [
-  { src: img1, alt: 'Iris Woods property view 1' },
-  { src: img2, alt: 'Iris Woods property view 2' },
-  { src: img3, alt: 'Iris Woods property view 3' },
-  { src: img4, alt: 'Iris Woods property view 4' },
-  { src: img5, alt: 'Iris Woods property view 5' },
-  { src: img6, alt: 'Iris Woods property view 6' },
+  { src: img1, alt: 'Codename Tathastu property view 1' },
+  { src: img2, alt: 'Codename Tathastu property view 2' },
+  { src: img3, alt: 'Codename Tathastu property view 3' },
+  { src: img4, alt: 'Codename Tathastu property view 4' },
+  { src: img5, alt: 'Codename Tathastu property view 5' },
+  { src: img6, alt: 'Codename Tathastu property view 6' },
 ];

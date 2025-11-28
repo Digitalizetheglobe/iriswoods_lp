@@ -77,7 +77,7 @@ export function ProjectOverview() {
             Project Overview
           </motion.h2>
           <motion.p variants={item} className="text-[#e7f7fe] text-lg max-w-2xl mx-auto">
-            Discover the key details of IRIS WOODS, your gateway to premium living
+            Discover the key details of Codename Tathastu, your gateway to premium living
           </motion.p>
         </motion.div>
 

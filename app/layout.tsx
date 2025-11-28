@@ -8,14 +8,14 @@ import { GlobalModal } from '@/components/common/GlobalModal';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'IRIS WOODS - Premium Residential Plots',
+  title: 'Codename Tathastu - Premium Residential Plots',
   description: 'Premium NA residential plots near Hinjewadi Phase III, Ghotawade',
   robots: {
     index: true,
     follow: true,
   },
   other: {
-    'keywords': 'Iris Wood NA plots, Iris Woods Hinjewadi, Iris Wood Pune, NA plots near Hinjewadi, NA plots Pune, Residential plots Hinjewadi Phase 3, na plots near hinjewadi, plots near hinjewadi pune',
+    'keywords': 'Iris Wood NA plots, Codename Tathastu Hinjewadi, Iris Wood Pune, NA plots near Hinjewadi, NA plots Pune, Residential plots Hinjewadi Phase 3, na plots near hinjewadi, plots near hinjewadi pune',
   },
 };
 
@@ -29,7 +29,7 @@ export default function RootLayout({
       <head>
         <title>NA Plots for Sale Near Hinjewadi Phase 3, Pune | Codename Iriswoods</title>
         <meta name="description" content="NA plots near Hinjewadi, Pune in a gated community with entrance gate, 24/7 security, clubhouse, pool, internal roads, water, electricity & more." />
-        <meta name="keywords" content="Iris Wood NA plots, Iris Woods Hinjewadi, Iris Wood Pune, NA plots near Hinjewadi, NA plots Pune, Residential plots Hinjewadi Phase 3, na plots near hinjewadi, plots near hinjewadi pune" />
+        <meta name="keywords" content="Iris Wood NA plots, Codename Tathastu Hinjewadi, Iris Wood Pune, NA plots near Hinjewadi, NA plots Pune, Residential plots Hinjewadi Phase 3, na plots near hinjewadi, plots near hinjewadi pune" />
         <link rel="canonical" href="https://codenameiriswoods.com/" />
         <meta name="google-site-verification" content="1jnGarEGITMJHRSy33sqq1_ct2MUFqUiUFTzxmlZt9U" />
         {/* Google tag (gtag.js) */}

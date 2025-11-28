@@ -27,7 +27,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
         >
           <Image 
             src="/logo.png" 
-            alt="IRIS WOODS Logo" 
+            alt="Codename Tathastu Logo" 
             width={120} 
             height={60} 
             className="h-12 w-auto"

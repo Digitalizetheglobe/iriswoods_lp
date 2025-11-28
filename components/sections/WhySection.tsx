@@ -51,10 +51,10 @@ export function WhySection() {
           variants={container}
         >
           <motion.h2 variants={item} className="text-4xl font-bold text-[#097199] mb-4">
-            Why <span className="text-[#097199]">IRIS WOODS </span>?
+            Why <span className="text-[#097199]">Codename Tathastu </span>?
           </motion.h2>
           <motion.p variants={item} className="text-gray-600 text-lg max-w-2xl mx-auto">
-            Discover the advantages that make IRIS WOODS  your perfect choice
+            Discover the advantages that make Codename Tathastu  your perfect choice
           </motion.p>
         </motion.div>
 
