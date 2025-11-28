@@ -27,14 +27,14 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
         >
           <Image 
             src="/logo.png" 
-            alt="Codename Tathastu Logo" 
+            alt="codename tathastu Logo" 
             width={120} 
             height={60} 
             className="h-12 w-auto"
           />
         </div>
 
-        {/* Desktop Nav */}
+        {/* Desktop Nav */} 
         <nav className="hidden md:flex space-x-8">
           {['home', 'about', 'amenities', 'gallery', 'contact'].map((section) => (
             <button 

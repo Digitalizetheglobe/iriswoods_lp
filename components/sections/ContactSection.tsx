@@ -265,7 +265,7 @@ const [consent, setConsent] = useState(false);
               whileTap={{ scale: 0.98 }}
               variants={formItem}
             >
-              Download Broucher
+              Download Brochure
             </motion.button>
           </form>
         </motion.div>

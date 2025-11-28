@@ -75,7 +75,7 @@ export default function RootLayout({
         <ModalProvider>
           {children}
 
-          {/* Download Broucher Button */}
+          {/* Download brochure Button */}
           <div className="fixed right-0 top-1/2 transform -translate-y-1/2 z-50">
             <DownloadBrochureButton />
           </div>
