@@ -83,31 +83,31 @@ const images = [img, img1, img2, img3, img4, img5];
           <nav className="hidden md:flex space-x-8">
             <button 
               onClick={() => scrollToSection('home')} 
-              className="text-gray-700 hover:text-[#097199] transition"
+              className="text-gray-700 hover:text-[#584f48] transition"
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('about')} 
-              className="text-gray-700 hover:text-[#097199] transition"
+              className="text-gray-700 hover:text-[#584f48] transition"
             >
               About Us
             </button>
             <button 
               onClick={() => scrollToSection('amenities')} 
-              className="text-gray-700 hover:text-[#097199] transition"
+              className="text-gray-700 hover:text-[#584f48] transition"
             >
               Amenities
             </button>
             <button 
               onClick={() => scrollToSection('gallery')} 
-              className="text-gray-700 hover:text-[#097199] transition"
+              className="text-gray-700 hover:text-[#584f48] transition"
             >
               Gallery
             </button>
             <button 
               onClick={() => scrollToSection('contact')} 
-              className="text-gray-700 hover:text-[#097199] transition"
+              className="text-gray-700 hover:text-[#584f48] transition"
             >
               Contact Us
             </button>
@@ -116,7 +116,7 @@ const images = [img, img1, img2, img3, img4, img5];
           {/* Enquire Now Button */}
           <button 
             onClick={() => setIsModalOpen(true)}
-            className="bg-[#097199] text-white px-4 py-2 rounded-md hover:bg-[#075a7a] transition"
+            className="bg-[#584f48] text-white px-4 py-2 rounded-md hover:bg-[#075a7a] transition"
           >
             Enquire Now
           </button>
@@ -150,7 +150,7 @@ const images = [img, img1, img2, img3, img4, img5];
           <div className="flex flex-col lg:flex-row items-center gap-12">
             {/* Left Side - Content */}
             <div className="lg:w-1/2">
-              <h2 className="text-3xl font-bold text-[#097199] mb-6">About Codename Tathastu</h2>
+              <h2 className="text-3xl font-bold text-[#584f48] mb-6">About Codename Tathastu</h2>
               <div className="text-gray-700 space-y-4">
                 <p>
                   We are a global, boutique real estate brokerage offering premium NA residential plots near Hinjewadi Phase III, Ghotawade.
@@ -164,16 +164,16 @@ const images = [img, img1, img2, img3, img4, img5];
 
               {/* Counters */}
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-8">
-                <div className="bg-[#bae3f3] p-6 rounded-lg text-center border border-[#097199]">
-                  <div className="text-xl font-bold text-[#097199] mb-2">1886-9686</div>
+                <div className="bg-[#bae3f3] p-6 rounded-lg text-center border border-[#584f48]">
+                  <div className="text-xl font-bold text-[#584f48] mb-2">1886-9686</div>
                   <div className="text-gray-600 text-[14px]">Plot Sizes (Sq. Ft.)</div>
                 </div>
-                <div className="bg-[#bae3f3] p-6 rounded-lg text-center border border-[#097199]">
-                  <div className="text-xl font-bold text-[#097199] mb-2">₹3100</div>
+                <div className="bg-[#bae3f3] p-6 rounded-lg text-center border border-[#584f48]">
+                  <div className="text-xl font-bold text-[#584f48] mb-2">₹3100</div>
                   <div className="text-gray-600 text-[14px]">Rate per Sq. Ft.</div>
                 </div>
-                <div className="bg-[#bae3f3] p-6 rounded-lg text-center border border-[#097199]">
-                  <div className="text-xl font-bold text-[#097199] mb-2">₹2,99,000</div>
+                <div className="bg-[#bae3f3] p-6 rounded-lg text-center border border-[#584f48]">
+                  <div className="text-xl font-bold text-[#584f48] mb-2">₹2,99,000</div>
                   <div className="text-gray-600 text-[14px]">Infra Cost</div>
                 </div>
               </div>
@@ -225,10 +225,10 @@ const images = [img, img1, img2, img3, img4, img5];
             {/* Card 1 */}
             <div className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg bg-white">
               <div className="p-8 text-center">
-                <svg className="w-12 h-12 text-[#097199] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-12 h-12 text-[#584f48] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
                 </svg>
-                <h3 className="font-bold text-[#097199] text-2xl mb-2">Builder</h3>
+                <h3 className="font-bold text-[#584f48] text-2xl mb-2">Builder</h3>
                 <p className="text-gray-600 text-lg">Khanekar</p>
               </div>
             </div>
@@ -236,10 +236,10 @@ const images = [img, img1, img2, img3, img4, img5];
             {/* Card 2 */}
             <div className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg bg-white">
               <div className="p-8 text-center">
-                <svg className="w-12 h-12 text-[#097199] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-12 h-12 text-[#584f48] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
                 </svg>
-                <h3 className="font-bold text-[#097199] text-2xl  mb-2">Strategic Partner</h3>
+                <h3 className="font-bold text-[#584f48] text-2xl  mb-2">Strategic Partner</h3>
                 <p className="text-gray-600 text-lg">Rising Spaces</p>
               </div>
             </div>
@@ -247,10 +247,10 @@ const images = [img, img1, img2, img3, img4, img5];
             {/* Card 3 */}
             <div className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg bg-white">
               <div className="p-8 text-center">
-                <svg className="w-12 h-12 text-[#097199] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-12 h-12 text-[#584f48] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                 </svg>
-                <h3 className="font-bold text-[#097199] text-2xl  mb-2">Project Size</h3>
+                <h3 className="font-bold text-[#584f48] text-2xl  mb-2">Project Size</h3>
                 <p className="text-gray-600 text-lg">6 acres</p>
               </div>
             </div>
@@ -258,10 +258,10 @@ const images = [img, img1, img2, img3, img4, img5];
             {/* Card 4 */}
             <div className="border-none shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg bg-white">
               <div className="p-8 text-center">
-                <svg className="w-12 h-12 text-[#097199] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-12 h-12 text-[#584f48] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
                 </svg>
-                <h3 className="font-bold text-[#097199] text-2xl  mb-2">Total Plots</h3>
+                <h3 className="font-bold text-[#584f48] text-2xl  mb-2">Total Plots</h3>
                 <p className="text-gray-600 text-lg">52</p>
               </div>
             </div>
@@ -274,8 +274,8 @@ const images = [img, img1, img2, img3, img4, img5];
       <motion.section id="why-iris" className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold text-[#097199] mb-4">
-              Why <span className="text-[#097199]">Codename Tathastu</span>?
+            <h2 className="text-4xl font-bold text-[#584f48] mb-4">
+              Why <span className="text-[#584f48]">Codename Tathastu</span>?
             </h2>
             <p className="text-gray-600 text-lg max-w-2xl mx-auto">
               Discover the advantages that make Codename Tathastu your perfect choice
@@ -409,7 +409,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <path d="M4 21V3m4 18V3m4 18V3m4 18V3m4 18V3" />
                     <path d="M2 7h20M2 14h20" />
@@ -429,7 +429,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-8">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-8">
                   <Image
                     src="/policeman.png"
                     alt="Security Icon"
@@ -452,7 +452,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-4">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-4">
                   <Image
                     src="/plot.png"
                     alt="Security Icon"
@@ -475,7 +475,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                    <Image
                     src="/road.png"
                     alt="Security Icon"
@@ -498,7 +498,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-18">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-18">
                   <Image
                     src="/transport.png"
                     alt="Security Icon"
@@ -521,7 +521,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/trees.png"
                     alt="Security Icon"
@@ -544,7 +544,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/electric.png"
                     alt="Security Icon"
@@ -567,7 +567,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/info.png"
                     alt="Security Icon"
@@ -590,7 +590,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/sewer.png"
                     alt="Security Icon"
@@ -613,7 +613,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/club.png"
                     alt="Security Icon"
@@ -636,7 +636,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/street-light.png"
                     alt="Security Icon"
@@ -659,7 +659,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/table-tennis.png"
                     alt="Security Icon"
@@ -682,7 +682,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/hall.png"
                     alt="Security Icon"
@@ -705,7 +705,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/swimming.png"
                     alt="Security Icon"
@@ -728,7 +728,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <Image
                     src="/game.png"
                     alt="Security Icon"
@@ -751,7 +751,7 @@ const images = [img, img1, img2, img3, img4, img5];
               <div className="absolute inset-0 bg-[#fff] bg-opacity-60 rounded-lg pointer-events-none"></div>
               
               <div className="relative z-10 text-center">
-                <div className="text-[#097199] flex justify-center items-center gap-x-6">
+                <div className="text-[#584f48] flex justify-center items-center gap-x-6">
                   <svg className="w-8 h-8" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
                     <path d="M4 21V3m4 18V3m4 18V3m4 18V3m4 18V3" />
                     <path d="M2 7h20M2 14h20" />
@@ -771,7 +771,7 @@ const images = [img, img1, img2, img3, img4, img5];
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-3xl font-bold text-center text-[#097199] mb-12"
+            className="text-3xl font-bold text-center text-[#584f48] mb-12"
           >
             Gallery
           </motion.h2>
@@ -799,7 +799,7 @@ const images = [img, img1, img2, img3, img4, img5];
       </motion.section>
 
       {/* Location Section */}
-      <motion.section className="py-20 bg-[#097199] text-white">
+      <motion.section className="py-20 bg-[#584f48] text-white">
           <div className="container mx-auto w-350 px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-bold mb-4">
@@ -894,7 +894,7 @@ const images = [img, img1, img2, img3, img4, img5];
             <div className="text-center lg:text-left">
               <h3 className="text-2xl font-bold text-[#3c3c3c] mb-4">Get in Touch</h3>
               <div className="flex items-center justify-center lg:justify-start space-x-4 mb-6">
-                <svg className="w-6 h-6 text-[#097199]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-6 h-6 text-[#584f48]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 <span className="text-xl text-[#3c3c3c]  font-semibold">
@@ -911,10 +911,10 @@ const images = [img, img1, img2, img3, img4, img5];
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               {/* Office Hours */}
               <div className="text-center p-6 bg-gray-50 rounded-lg">
-                <svg className="w-8 h-8 text-[#097199] mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8 text-[#584f48] mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
-                <h4 className="font-semibold mb-2 text-[#097199]">Office Hours</h4>
+                <h4 className="font-semibold mb-2 text-[#584f48]">Office Hours</h4>
                 <p className="text-gray-600 text-sm">
                   Mon - Sat: 9:00 AM - 7:00 PM
                 </p>
@@ -922,11 +922,11 @@ const images = [img, img1, img2, img3, img4, img5];
 
               {/* Location */}
               <div className="text-center p-6 bg-gray-50 rounded-lg">
-                <svg className="w-8 h-8 text-[#097199] mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-8 h-8 text-[#584f48] mx-auto mb-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <h4 className="font-semibold mb-2 text-[#097199]">Location</h4>
+                <h4 className="font-semibold mb-2 text-[#584f48]">Location</h4>
                 <p className="text-gray-600 text-sm">
                   Near Hinjewadi Phase III, Ghotawade
                 </p>
@@ -947,7 +947,7 @@ const images = [img, img1, img2, img3, img4, img5];
                     value={formData.name}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#097199] h-12 placeholder:text-[#097199]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#584f48] h-12 placeholder:text-[#584f48]"
                   />
                 </div>
                 <div>
@@ -958,7 +958,7 @@ const images = [img, img1, img2, img3, img4, img5];
                     value={formData.phone}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#097199] h-12 placeholder:text-[#097199]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#584f48] h-12 placeholder:text-[#584f48]"
                   />
                 </div>
                 <div>
@@ -969,7 +969,7 @@ const images = [img, img1, img2, img3, img4, img5];
                     value={formData.email}
                     onChange={handleInputChange}
                     required
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#097199] h-12 placeholder:text-[#097199]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#584f48] h-12 placeholder:text-[#584f48]"
                   />
                 </div>
                 <div>
@@ -979,13 +979,13 @@ const images = [img, img1, img2, img3, img4, img5];
                     value={formData.message}
                     onChange={handleInputChange}
                     rows={4}
-                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#097199] placeholder:text-[#097199]"
+                    className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#584f48] placeholder:text-[#584f48]"
                     required
                   ></textarea>
                 </div>
                 <button
                   type="submit"
-                  className="w-full bg-[#097199] hover:bg-[#075a7a] text-white py-3 rounded-md text-lg transition h-12 flex items-center justify-center"
+                  className="w-full bg-[#584f48] hover:bg-[#075a7a] text-white py-3 rounded-md text-lg transition h-12 flex items-center justify-center"
                 >
                   <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 10h.01M12 10h.01M16 10h.01M9 16H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-5l-5 5v-5z" />
@@ -1033,7 +1033,7 @@ const images = [img, img1, img2, img3, img4, img5];
               >
                 <div> 
                   <div className="flex justify-between items-center mb-6">
-                    <h3 className="text-2xl font-bold text-[#097199]">Enquire Now</h3>
+                    <h3 className="text-2xl font-bold text-[#584f48]">Enquire Now</h3>
                     <button 
                       onClick={() => setIsModalOpen(false)}
                       className="text-gray-500 hover:text-gray-700"
@@ -1062,7 +1062,7 @@ const images = [img, img1, img2, img3, img4, img5];
                           name="name" 
                           value={formData.name}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#097199]"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#584f48]"
                           required
                         />
                       </div>
@@ -1074,7 +1074,7 @@ const images = [img, img1, img2, img3, img4, img5];
                           name="email" 
                           value={formData.email}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#097199]"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#584f48]"
                           required
                         />
                       </div>
@@ -1086,7 +1086,7 @@ const images = [img, img1, img2, img3, img4, img5];
                           name="phone" 
                           value={formData.phone}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#097199]"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#584f48]"
                           required
                         />
                       </div>
@@ -1098,13 +1098,13 @@ const images = [img, img1, img2, img3, img4, img5];
                           rows={4}
                           value={formData.message}
                           onChange={handleInputChange}
-                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#097199]"
+                          className="w-full px-4 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-[#584f48]"
                           required
                         ></textarea>
                       </div>
                       <button 
                         type="submit" 
-                        className="w-full bg-[#097199] text-white py-3 rounded-md hover:bg-[#075a7a] transition"
+                        className="w-full bg-[#584f48] text-white py-3 rounded-md hover:bg-[#075a7a] transition"
                       >
                         Submit Enquiry
                       </button>

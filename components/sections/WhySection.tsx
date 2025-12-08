@@ -50,8 +50,8 @@ export function WhySection() {
           viewport={{ once: true }}
           variants={container}
         >
-          <motion.h2 variants={item} className="text-4xl font-bold text-[#097199] mb-4">
-            Why <span className="text-[#097199]">Codename Tathastu </span>?
+          <motion.h2 variants={item} className="text-4xl font-bold text-[#584f48] mb-4">
+            Why <span className="text-[#584f48]">Codename Tathastu </span>?
           </motion.h2>
           <motion.p variants={item} className="text-gray-600 text-lg max-w-2xl mx-auto">
             Discover the advantages that make Codename Tathastu  your perfect choice
@@ -78,7 +78,7 @@ export function WhySection() {
               <img
                 src="/icons/gate.png"
                 alt="Gated Community Icon"
-                className="w-9 h-9 mt-2 flex-shrink-0"
+                className="w-9 h-9 mt-2 flex-shrink-0 text-[#fff]"
               />
             </motion.div>
             <div>

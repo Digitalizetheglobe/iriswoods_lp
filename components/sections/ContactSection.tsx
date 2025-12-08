@@ -88,7 +88,7 @@ const [consent, setConsent] = useState(false);
   }
 
   try {
-    const response = await fetch('https://api.risingspaces.in/api/forms/forms/691adb25c476888712e4c341/submit', {
+    const response = await fetch('https://api.risingspaces.in/api/forms/forms/6936ad350125596fef84ab24/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
@@ -129,7 +129,7 @@ const [consent, setConsent] = useState(false);
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
         {/* Contact Info */}
         <motion.div className="mt-6" variants={container}>
-          <motion.h2 className="text-3xl font-bold text-[#097199] mb-4" variants={item}>
+          <motion.h2 className="text-3xl font-bold text-[#584f48] mb-4" variants={item}>
             Get In Touch
           </motion.h2>
           <motion.p className="text-gray-600 mb-8" variants={item}>
@@ -140,17 +140,17 @@ const [consent, setConsent] = useState(false);
             {[{
               icon: <FaMapMarkerAlt />,
               title: 'Address',
-              text: <a href="https://www.google.com/maps?q=S.+No.+261,+Near+Laxmi+Chowk,+Marunji+Road,+Hinjawadi,+Pune" target="_blank" rel="noopener noreferrer" className="hover:text-[#097199]">S. No. 261, Near Laxmi Chowk, Marunji Road, Hinjawadi, Pune</a>
+              text: <a href="https://www.google.com/maps?q=S.+No.+261,+Near+Laxmi+Chowk,+Marunji+Road,+Hinjawadi,+Pune" target="_blank" rel="noopener noreferrer" className="hover:text-[#584f48]">S. No. 261, Near Laxmi Chowk, Marunji Road, Hinjawadi, Pune</a>
             },
             {
               icon: <FaPhoneAlt />,
               title: 'Phone Number',
-              text: <a href="tel:+918378944777" className="hover:text-[#097199]">+91 80073 37788</a>
+              text: <a href="tel:+918378944777" className="hover:text-[#584f48]">+91 80073 37788</a>
             },
             {
               icon: <FaEnvelope />,
               title: 'E-Mail',
-              text: <a href="mailto:info@risingspaces.in" className="hover:text-[#097199]">info@risingspaces.in</a>
+              text: <a href="mailto:info@risingspaces.in" className="hover:text-[#584f48]">info@risingspaces.in</a>
             }].map((contact, index) => (
               <motion.div
                 key={index}
@@ -158,7 +158,7 @@ const [consent, setConsent] = useState(false);
                 variants={item}
                 whileHover={{ x: 5 }}
               >
-                <div className="bg-[#097199] p-3 rounded-full text-white">
+                <div className="bg-[#584f48] p-3 rounded-full text-white">
                   {contact.icon}
                 </div>
                 <div>
@@ -180,7 +180,7 @@ const [consent, setConsent] = useState(false);
                   href={link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="w-10 h-10 rounded-full bg-[#097199] flex items-center justify-center text-white"
+                  className="w-10 h-10 rounded-full bg-[#584f48] flex items-center justify-center text-white"
                   whileHover={{ scale: 1.1 }}
                   whileTap={{ scale: 0.9 }}
                 >
@@ -193,7 +193,7 @@ const [consent, setConsent] = useState(false);
 
         {/* Contact Form */}
         <motion.div className="bg-white p-8 rounded-lg shadow-md" variants={container}>
-          <motion.h3 className="text-3xl font-bold text-[#097199] mb-6" variants={item}>
+          <motion.h3 className="text-3xl font-bold text-[#584f48] mb-6" variants={item}>
             Send a Message
           </motion.h3>
 
@@ -228,7 +228,7 @@ const [consent, setConsent] = useState(false);
                   value={(formData as any)[field]}
                   onChange={handleInputChange}
                   required
-                  className="w-full border-b border-gray-300 focus:outline-none placeholder:text-gray-400 py-2 text-[#097199] focus:border-[#097199]"
+                  className="w-full border-b border-gray-300 focus:outline-none placeholder:text-gray-400 py-2 text-[#584f48] focus:border-[#584f48]"
                 />
               </motion.div>
             ))}
@@ -241,7 +241,7 @@ const [consent, setConsent] = useState(false);
                 onChange={handleInputChange}
                 rows={4}
                 required
-                className="w-full border-b border-gray-300 focus:outline-none placeholder:text-gray-400 py-2 text-[#097199] focus:border-[#097199]"
+                className="w-full border-b border-gray-300 focus:outline-none placeholder:text-gray-400 py-2 text-[#584f48] focus:border-[#584f48]"
               />
             </motion.div>
 
@@ -251,7 +251,7 @@ const [consent, setConsent] = useState(false);
                 id="consent"
                 checked={consent}
                 onChange={handleConsentChange}
-                className="mt-1 w-4 h-4 text-[#097199] border-gray-300 rounded focus:ring-[#097199] focus:ring-2 cursor-pointer"
+                className="mt-1 w-4 h-4 text-[#584f48] border-gray-300 rounded focus:ring-[#584f48] focus:ring-2 cursor-pointer"
               />
               <label htmlFor="consent" className="text-sm text-gray-600 cursor-pointer">
               Yes, I consent to the Privacy Policy and Terms and Conditions.
@@ -260,7 +260,7 @@ const [consent, setConsent] = useState(false);
 
             <motion.button
               type="submit"
-              className="w-full bg-[#097199] hover:bg-[#075a7a] text-white py-3 rounded-md text-sm font-semibold transition cursor-pointer"
+              className="w-full bg-[#584f48] hover:bg-transparent hover:text-[#584f48] border border-[#584f48] text-white py-3 rounded-md text-sm font-semibold transition cursor-pointer"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               variants={formItem}

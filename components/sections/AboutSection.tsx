@@ -48,7 +48,7 @@ export function AboutSection() {
         >
           {/* Text Section */}
           <div className="lg:w-1/2 w-full">
-            <motion.h1 variants={item} className="text-3xl sm:text-4xl font-bold text-[#097199] mb-6">
+            <motion.h1 variants={item} className="text-3xl sm:text-4xl font-bold text-[#584f48] mb-6">
               About Codename Tathastu
             </motion.h1>
             
@@ -72,12 +72,12 @@ export function AboutSection() {
               ].map((item, index) => (
                 <motion.div 
                   key={index} 
-                  className="bg-[#dcf8fe] p-6 rounded-lg text-center border border-[#097199]"
+                  className="bg-[#fff] p-6 rounded-lg text-center border border-[#584f48]"
                   variants={statItem}
                   custom={index}
                   whileHover={{ y: -5, boxShadow: "0 10px 20px rgba(0,0,0,0.1)" }}
                 >
-                  <div className="text-xl font-bold text-[#097199] mb-2">{item.value}</div>
+                  <div className="text-xl font-bold text-[#584f48] mb-2">{item.value}</div>
                   <div className="text-gray-600 text-sm">{item.label}</div>
                 </motion.div>
               ))}

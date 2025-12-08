@@ -36,7 +36,7 @@ export default function ImageSliderSection() {
       <div className="max-w-8xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#097199] mb-4">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#584f48] mb-4">
             Image Gallery
           </h2>
         </div>

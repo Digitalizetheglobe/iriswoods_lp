@@ -20,13 +20,13 @@ export default function PrivacyPolicyPage() {
       <div className="sticky top-0 z-50 bg-white shadow-md w-full">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center">
-            <a href="/" className="text-2xl font-bold text-[#097199]">
+            <a href="/" className="text-2xl font-bold text-[#584f48]">
               Codename Tathastu 
             </a>
           </div>
           <a
             href="/"
-            className="text-gray-700 hover:text-[#097199] transition"
+            className="text-gray-700 hover:text-[#584f48] transition"
           >
             ← Back to Home
           </a>
@@ -35,7 +35,7 @@ export default function PrivacyPolicyPage() {
 
       <main className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="prose prose-lg max-w-none">
-          <h1 className="text-4xl font-bold text-[#097199] mb-8">Privacy Policy</h1>
+          <h1 className="text-4xl font-bold text-[#584f48] mb-8">Privacy Policy</h1>
           
           <p className="text-gray-600 mb-6">
             <strong>Last Updated:</strong> {new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}
@@ -43,7 +43,7 @@ export default function PrivacyPolicyPage() {
 
           <div className="space-y-8 text-gray-700">
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">1. Introduction</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">1. Introduction</h2>
               <p className="mb-4">
                 Welcome to Codename Tathastu , a premium residential plots project by RISING SPACES. We are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website <strong>codenameiriswoods.com</strong> and use our services.
               </p>
@@ -53,7 +53,7 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">2. Information We Collect</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">2. Information We Collect</h2>
               <p className="mb-4">We collect information that you provide directly to us when you:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2">
                 <li>Fill out contact forms on our website</li>
@@ -72,7 +72,7 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">3. How We Use Your Information</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">3. How We Use Your Information</h2>
               <p className="mb-4">We use the information we collect to:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2">
                 <li>Respond to your enquiries and provide information about our residential plots</li>
@@ -85,7 +85,7 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">4. Data Storage and Security</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">4. Data Storage and Security</h2>
               <p className="mb-4">
                 Your personal information is submitted to our secure API endpoint hosted by RISING SPACES. We implement appropriate technical and organizational security measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.
               </p>
@@ -95,7 +95,7 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">5. Third-Party Services</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">5. Third-Party Services</h2>
               <p className="mb-4">We use the following third-party services that may collect information:</p>
               
               <div className="mb-4">
@@ -123,7 +123,7 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">6. Cookies and Tracking Technologies</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">6. Cookies and Tracking Technologies</h2>
               <p className="mb-4">
                 Our website may use cookies and similar tracking technologies to enhance your browsing experience. Cookies are small data files stored on your device that help us:
               </p>
@@ -138,7 +138,7 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">7. Data Sharing and Disclosure</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">7. Data Sharing and Disclosure</h2>
               <p className="mb-4">We do not sell, trade, or rent your personal information to third parties. We may share your information only in the following circumstances:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2">
                 <li><strong>Service Providers:</strong> With trusted third-party service providers who assist us in operating our website and conducting our business, subject to confidentiality agreements</li>
@@ -149,7 +149,7 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">8. Your Rights</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">8. Your Rights</h2>
               <p className="mb-4">You have the following rights regarding your personal information:</p>
               <ul className="list-disc pl-6 mb-4 space-y-2">
                 <li><strong>Access:</strong> Request access to the personal information we hold about you</li>
@@ -164,48 +164,48 @@ export default function PrivacyPolicyPage() {
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">9. Data Retention</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">9. Data Retention</h2>
               <p>
                 We retain your personal information for as long as necessary to fulfill the purposes outlined in this Privacy Policy, unless a longer retention period is required or permitted by law. When we no longer need your information, we will securely delete or anonymize it.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">10. Children's Privacy</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">10. Children's Privacy</h2>
               <p>
                 Our website is not intended for individuals under the age of 18. We do not knowingly collect personal information from children. If you believe we have collected information from a child, please contact us immediately, and we will take steps to delete such information.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">11. Changes to This Privacy Policy</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">11. Changes to This Privacy Policy</h2>
               <p>
                 We may update this Privacy Policy from time to time to reflect changes in our practices or for other operational, legal, or regulatory reasons. We will notify you of any material changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. We encourage you to review this Privacy Policy periodically.
               </p>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">12. Contact Us</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">12. Contact Us</h2>
               <p className="mb-4">If you have any questions, concerns, or requests regarding this Privacy Policy or our data practices, please contact us:</p>
-              <div className="bg-[#dcf8fe] p-6 rounded-lg border border-[#097199]">
+              <div className="bg-[#dcf8fe] p-6 rounded-lg border border-[#584f48]">
                 <p className="mb-2"><strong>RISING SPACES</strong></p>
                 <p className="mb-2">
                   <strong>Address:</strong> S. No. 261, Near Laxmi Chowk, Marunji Road, Hinjawadi, Pune
                 </p>
                 <p className="mb-2">
-                  <strong>Phone:</strong> <a href="tel:+918378944777" className="text-[#097199] hover:underline">+91 80073 37788</a>
+                  <strong>Phone:</strong> <a href="tel:+918378944777" className="text-[#584f48] hover:underline">+91 80073 37788</a>
                 </p>
                 <p className="mb-2">
-                  <strong>Email:</strong> <a href="mailto:info@risingspaces.in" className="text-[#097199] hover:underline">info@risingspaces.in</a>
+                  <strong>Email:</strong> <a href="mailto:info@risingspaces.in" className="text-[#584f48] hover:underline">info@risingspaces.in</a>
                 </p>
                 <p>
-                  <strong>Website:</strong> <a href="https://codenameiriswoods.com" className="text-[#097199] hover:underline">codenameiriswoods.com</a>
+                  <strong>Website:</strong> <a href="https://codenameiriswoods.com" className="text-[#584f48] hover:underline">codenameiriswoods.com</a>
                 </p>
               </div>
             </section>
 
             <section>
-              <h2 className="text-2xl font-semibold text-[#097199] mb-4">13. Consent</h2>
+              <h2 className="text-2xl font-semibold text-[#584f48] mb-4">13. Consent</h2>
               <p>
                 By using our website and providing your personal information, you consent to the collection, use, and disclosure of your information as described in this Privacy Policy. If you do not agree with this Privacy Policy, please do not use our website or provide your personal information.
               </p>

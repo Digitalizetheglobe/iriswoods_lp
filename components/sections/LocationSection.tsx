@@ -82,7 +82,7 @@ export function LocationSection() {
 
   return (
     <motion.section 
-      className="py-16 md:py-20 bg-[#097199] text-white"
+      className="py-16 md:py-20 bg-[#584f48] text-white"
       initial="hidden"
       whileInView="show"
       viewport={{ once: true, margin: "-100px" }}

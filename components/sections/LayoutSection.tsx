@@ -10,7 +10,7 @@ export default function LayoutSection() {
       <div className="max-w-7xl mx-auto px-6 lg:px-12">
         {/* Heading */}
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#097199] mb-8 md:mb-12">Layout</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center text-[#584f48] mb-8 md:mb-12">Layout</h2>
 
         </div>
 
@@ -44,26 +44,26 @@ export default function LayoutSection() {
               </h4>
               <ul className="space-y-3 text-gray-700">
                 <li className="flex items-center">
-                  <span className="h-2 w-2 bg-[#097199] rounded-full mr-3"></span>
+                  <span className="h-2 w-2 bg-[#584f48] rounded-full mr-3"></span>
                   Various plot sizes available
                 </li>
                 <li className="flex items-center">
-                  <span className="h-2 w-2 bg-[#097199] rounded-full mr-3"></span>
+                  <span className="h-2 w-2 bg-[#584f48] rounded-full mr-3"></span>
                   Road-touch premium plots
                 </li>
                 <li className="flex items-center">
-                  <span className="h-2 w-2 bg-[#097199] rounded-full mr-3"></span>
+                  <span className="h-2 w-2 bg-[#584f48] rounded-full mr-3"></span>
                   Well-designed internal roads
                 </li>
                 <li className="flex items-center">
-                  <span className="h-2 w-2 bg-[#097199] rounded-full mr-3"></span>
+                  <span className="h-2 w-2 bg-[#584f48] rounded-full mr-3"></span>
                   Clear titles and all approvals
                 </li>
               </ul>
             </div>
 
             {/* Button Card */}
-            <div className="bg-[#097199] rounded-xl shadow p-6 text-white">
+            <div className="bg-[#584f48] rounded-xl shadow p-6 text-white">
               <h4 className="text-lg font-semibold mb-">
                 Get Detailed Plot Information
               </h4>
@@ -71,7 +71,7 @@ export default function LayoutSection() {
                 Download complete plot list with sizes, pricing, and availability
               </p>
                 <a href="#contact">
-                <button className="bg-white text-[#097199] hover:text-white hover:bg-[#097199] border font-semibold px-6 py-2 rounded-md transition cursor-pointer">
+                <button className="bg-white text-[#584f48] hover:text-white hover:bg-[#584f48] border font-semibold px-6 py-2 rounded-md transition cursor-pointer">
                     Request Plot Details
                 </button>
                 </a>

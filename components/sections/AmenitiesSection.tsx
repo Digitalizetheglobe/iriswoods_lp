@@ -53,7 +53,7 @@ export function AmenitiesSection() {
   const amenities = [
     {
       icon: (
-        <svg className="w-8 h-8 text-[#097199]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+        <svg className="w-8 h-8 text-[#584f48]" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
           <path d="M4 21V3m4 18V3m4 18V3m4 18V3m4 18V3" />
           <path d="M2 7h20M2 14h20" />
         </svg>

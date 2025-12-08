@@ -99,10 +99,10 @@ export function ProjectOverview() {
             }}
           >
             <div className="p-8 text-center">
-              <svg className="w-12 h-12 text-[#097199] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-12 h-12 text-[#584f48] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
               </svg>
-              <h3 className="font-bold text-[#097199] text-2xl mb-2">Builder</h3>
+              <h3 className="font-bold text-[#584f48] text-2xl mb-2">Builder</h3>
               <p className="text-gray-600 text-lg">Khanekar</p>
             </div>
           </motion.div>
@@ -118,10 +118,10 @@ export function ProjectOverview() {
             }}
           >
             <div className="p-8 text-center">
-              <svg className="w-12 h-12 text-[#097199] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-12 h-12 text-[#584f48] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z" />
               </svg>
-              <h3 className="font-bold text-[#097199] text-2xl  mb-2">Strategic Partner</h3>
+              <h3 className="font-bold text-[#584f48] text-2xl  mb-2">Strategic Partner</h3>
               <p className="text-gray-600 text-lg">Rising Spaces</p>
             </div>
           </motion.div>
@@ -137,10 +137,10 @@ export function ProjectOverview() {
             }}
           >
             <div className="p-8 text-center">
-              <svg className="w-12 h-12 text-[#097199] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-12 h-12 text-[#584f48] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
               </svg>
-              <h3 className="font-bold text-[#097199] text-2xl  mb-2">Project Size</h3>
+              <h3 className="font-bold text-[#584f48] text-2xl  mb-2">Project Size</h3>
               <p className="text-gray-600 text-lg">6 Acres</p>
             </div>
           </motion.div>
@@ -156,10 +156,10 @@ export function ProjectOverview() {
             }}
           >
             <div className="p-8 text-center">
-              <svg className="w-12 h-12 text-[#097199] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <svg className="w-12 h-12 text-[#584f48] mx-auto mb-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
               </svg>
-              <h3 className="font-bold text-[#097199] text-2xl  mb-2">Total Plots</h3>
+              <h3 className="font-bold text-[#584f48] text-2xl  mb-2">Total Plots</h3>
               <p className="text-gray-600 text-lg">52</p>
             </div>
           </motion.div>

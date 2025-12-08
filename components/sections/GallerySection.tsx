@@ -79,7 +79,7 @@ export function GallerySection() {
         <div className="container mx-auto px-4 sm:px-6">
           <motion.h2
             variants={title}
-            className="text-3xl md:text-4xl font-bold text-center text-[#097199] mb-8 md:mb-12"
+            className="text-3xl md:text-4xl font-bold text-center text-[#584f48] mb-8 md:mb-12"
           >
             Gallery
           </motion.h2>

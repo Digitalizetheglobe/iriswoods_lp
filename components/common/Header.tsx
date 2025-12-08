@@ -40,7 +40,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
             <button 
               key={section}
               onClick={() => handleNavClick(section)} 
-              className="cursor-pointer text-gray-700 hover:text-[#097199] transition capitalize"
+              className="cursor-pointer text-gray-700 hover:text-[#584f48] transition capitalize"
             >
               {section === 'home' ? 'Home' : 
                section === 'about' ? 'About Us' :
@@ -54,14 +54,14 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
         {/* Desktop Enquire Button */}
         <button 
           onClick={onEnquireClick}
-          className="hidden md:block bg-[#097199] text-white px-4 py-2 rounded-md hover:bg-[#075a7a] transition cursor-pointer"
+          className="hidden md:block bg-[#584f48] text-white px-4 py-2 rounded-md hover:bg-transparent hover:text-[#584f48] border border-[#584f48] transition cursor-pointer"
         >
           Enquire Now
         </button>
 
         {/* Mobile Menu Icon */}
         <div className="md:hidden">
-          <button onClick={handleMenuToggle} className="text-2xl text-[#097199] cursor-pointer">
+          <button onClick={handleMenuToggle} className="text-2xl text-[#584f48] cursor-pointer">
             {menuOpen ? <FaTimes /> : <FaBars />}
           </button>
         </div>
@@ -74,7 +74,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
             <button 
               key={section}
               onClick={() => handleNavClick(section)} 
-              className="block w-full text-left text-gray-700 hover:text-[#097199] transition capitalize cursor-pointer"
+              className="block w-full text-left text-gray-700 hover:text-[#584f48] transition capitalize cursor-pointer"
             >
               {section === 'home' ? 'Home' : 
                section === 'about' ? 'About Us' :
@@ -90,7 +90,7 @@ export function Header({ onEnquireClick }: { onEnquireClick: () => void }) {
               onEnquireClick();
               setMenuOpen(false);
             }}
-            className="w-full bg-[#097199] text-white px-4 py-2 rounded-md hover:bg-[#075a7a] transition cursor-pointer"
+            className="w-full bg-[#584f48] text-white px-4 py-2 rounded-md hover:bg-transparent hover:text-[#584f48] border border-[#584f48] transition cursor-pointer"
           >
             Enquire Now
           </button>

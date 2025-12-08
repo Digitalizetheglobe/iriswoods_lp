@@ -53,7 +53,7 @@ export function EnquiryModalForm({ onSuccess }: { onSuccess: () => void }) {
     }
 
     try {
-      const response = await fetch('https://api.risingspaces.in/api/forms/forms/691adb25c476888712e4c341/submit', {
+      const response = await fetch('https://api.risingspaces.in/api/forms/forms/6936ad350125596fef84ab24/submit', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -107,7 +107,7 @@ export function EnquiryModalForm({ onSuccess }: { onSuccess: () => void }) {
         value={formData.name}
         onChange={handleChange}
         required
-        className="w-full p-2 border rounded placeholder:text-gray-400 text-[#097199]"
+        className="w-full p-2 border rounded placeholder:text-gray-400 text-[#584f48]"
       />
       <input
         type="email"
@@ -116,7 +116,7 @@ export function EnquiryModalForm({ onSuccess }: { onSuccess: () => void }) {
         value={formData.email}
         onChange={handleChange}
         required
-        className="w-full p-2 border rounded placeholder:text-gray-400 text-[#097199]"
+        className="w-full p-2 border rounded placeholder:text-gray-400 text-[#584f48]"
       />
       <input
         type="tel"
@@ -126,7 +126,7 @@ export function EnquiryModalForm({ onSuccess }: { onSuccess: () => void }) {
         onChange={handleChange}
         required
         maxLength={10}
-        className="w-full p-2 border rounded placeholder:text-gray-400 text-[#097199]"
+        className="w-full p-2 border rounded placeholder:text-gray-400 text-[#584f48]"
       />
       <textarea
         name="message"
@@ -135,7 +135,7 @@ export function EnquiryModalForm({ onSuccess }: { onSuccess: () => void }) {
         onChange={handleChange}
         rows={4}
         required
-        className="w-full p-2 border rounded placeholder:text-gray-400 text-[#097199]"
+        className="w-full p-2 border rounded placeholder:text-gray-400 text-[#584f48]"
       />
       <div className="flex items-start space-x-2">
         <input
@@ -151,7 +151,7 @@ export function EnquiryModalForm({ onSuccess }: { onSuccess: () => void }) {
       </div>
       <button
         type="submit"
-        className="w-full bg-[#097199] text-white px-4 py-2 rounded hover:bg-[#075a7a]"
+        className="w-full bg-[#584f48] text-white px-4 py-2 rounded hover:bg-transparent hover:text-[#584f48] border border-[#584f48] cursor-pointer"
       >
         Submit Enquiry
       </button>
