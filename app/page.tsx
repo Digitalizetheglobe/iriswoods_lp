@@ -13,6 +13,7 @@ import ImageSliderSection from "@/components/sections/ImageSliderSection";
 import { Header } from '@/components/common/Header';
 import { Footer } from '@/components/common/Footer';
 import { useModal } from '@/components/providers/ModalProvider';
+import { MobileStickyCta } from '@/components/common/MobileStickyCta';
 
 
 
@@ -37,6 +38,8 @@ export default function Home() {
       </main>
 
       <Footer />
+
+      <MobileStickyCta />
     </div>
   );
 }
