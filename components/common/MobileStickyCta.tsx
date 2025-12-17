@@ -4,7 +4,7 @@ import { useModal } from '@/components/providers/ModalProvider';
 
 export function MobileStickyCta() {
   const { openModal } = useModal();
-  const phoneNumber = '+918378944777';
+  const phoneNumber = '+918805390707';
 
   return (
     <div
