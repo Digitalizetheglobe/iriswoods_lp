@@ -33,12 +33,12 @@ export default function RootLayout({
         <link rel="canonical" href="http://codenametathastu.com/" />
         <meta name="google-site-verification" content="1jnGarEGITMJHRSy33sqq1_ct2MUFqUiUFTzxmlZt9U" />
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-4V2HDZ92YD"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYW98MGYR2"></script>
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-4V2HDZ92YD');
+          gtag('config', 'G-ZYW98MGYR2');
         ` }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
