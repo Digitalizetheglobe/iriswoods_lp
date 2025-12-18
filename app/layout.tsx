@@ -31,14 +31,14 @@ export default function RootLayout({
         <meta name="description" content="NA plots near Hinjewadi, Pune in a gated community with entrance gate, 24/7 security, clubhouse, pool, internal roads, water, electricity & more." />
         <meta name="keywords" content="Codename Tathastu NA plots, Codename Tathastu Hinjewadi, Iris Wood Pune, NA plots near Hinjewadi, NA plots Pune, Residential plots Hinjewadi Phase 3, na plots near hinjewadi, plots near hinjewadi pune" />
         <link rel="canonical" href="http://codenametathastu.com/" />
-        <meta name="google-site-verification" content="1jnGarEGITMJHRSy33sqq1_ct2MUFqUiUFTzxmlZt9U" />
+        <meta name="google-site-verification" content="CN4SvSbJG9_tTyJi12XPYnNHuTWgzyAcNEYTzJcaRpc" />
         {/* Google tag (gtag.js) */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZYW98MGYR2"></script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6WG42JWGW"></script>
         <script dangerouslySetInnerHTML={{ __html: `
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
-          gtag('config', 'G-ZYW98MGYR2');
+          gtag('config', 'G-Y6WG42JWGW');
         ` }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
           "@context": "https://schema.org",
