@@ -8,7 +8,7 @@ import { GlobalModal } from '@/components/common/GlobalModal';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Codename Tathastu - Premium Residential Plots',
+  title: 'Na Plots Near Hinjewadi, Pune | Codename Tathastu  ',
   description: 'Premium NA residential plots near Hinjewadi Phase III, Ghotawade',
   robots: {
     index: true,
@@ -30,7 +30,7 @@ export default function RootLayout({
         <title>NA Plots for Sale Near Hinjewadi Phase 3, Pune | Codename Iriswoods</title>
         <meta name="description" content="NA plots near Hinjewadi, Pune in a gated community with entrance gate, 24/7 security, clubhouse, pool, internal roads, water, electricity & more." />
         <meta name="keywords" content="Codename Tathastu NA plots, Codename Tathastu Hinjewadi, Iris Wood Pune, NA plots near Hinjewadi, NA plots Pune, Residential plots Hinjewadi Phase 3, na plots near hinjewadi, plots near hinjewadi pune" />
-        <link rel="canonical" href="http://codenametathastu.com/" />
+        <link rel="canonical" href="https://codenametathastu.com/" />
         <meta name="google-site-verification" content="CN4SvSbJG9_tTyJi12XPYnNHuTWgzyAcNEYTzJcaRpc" />
         {/* Google tag (gtag.js) */}
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y6WG42JWGW"></script>
@@ -45,7 +45,7 @@ export default function RootLayout({
           "@type": "Residence",
           "name": "NA Plots Near Hinjewadi, Pune",
           "description": "Premium NA plots for sale near Hinjewadi, Pune in a gated community with 24/7 security, clubhouse, pool, internal roads, water, electricity & more.",
-          "url": "http://codenametathastu.com",
+          "url": "https://codenametathastu.com",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Hinjewadi",
