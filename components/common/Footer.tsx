@@ -47,7 +47,7 @@ export function Footer() {
 
           {/* Center: Copyright */}
           <div className="text-[16px] text-white text-center">
-            © 2025 Copyright RISING SPACES. All Rights Reserved. Carefully Crafted By{' '}
+            © 2025 Copyright RISING SPACES. All Rights Reserved.
 
           </div>
 
