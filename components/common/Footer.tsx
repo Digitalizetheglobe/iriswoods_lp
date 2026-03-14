@@ -48,9 +48,7 @@ export function Footer() {
           {/* Center: Copyright */}
           <div className="text-[16px] text-white text-center">
             © 2025 Copyright RISING SPACES. All Rights Reserved. Carefully Crafted By{' '}
-            <span className="no-underline underline-offset-2 text-[#daf4fe]">
-              <a href="https://digitalizetheglobe.com/" className='hover:text-[#b4cdd7]'>Digitalize The Globe</a>
-            </span>
+
           </div>
 
           {/* Right: Policy Links */}
