@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { motion, Variants } from 'framer-motion';
 
 export function HeroSection() {
@@ -14,44 +15,41 @@ export function HeroSection() {
   return (
     <motion.section
       id="home"
-      className="relative w-full h-[400px] sm:h-[500px] md:h-[450px] lg:h-[700px] xl:h-[800px] overflow-hidden"
+      className="relative w-full h-[700px] sm:h-[600px] md:h-[450px] lg:h-[750px] xl:h-[820px] overflow-hidden"
       initial="hidden"
       animate="show"
       variants={container}
     >
       {/* Desktop */}
       <div className="hidden md:block absolute inset-0">
-        <video
-          src="/banner.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
+        <Image
+          src="/banner_w.png"
+          alt="Hero banner desktop"
+          fill
+          className="object-cover"
+          priority
         />
       </div>
 
       {/* Tablet */}
       <div className="hidden sm:block md:hidden absolute inset-0">
-        <video
-          src="/tab_banner.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
+        <Image
+          src="/banner_t.png"
+          alt="Hero banner tablet"
+          fill
+          className="object-cover"
+          priority
         />
       </div>
 
       {/* Mobile */}
       <div className="sm:hidden absolute inset-0">
-        <video
-          src="/tab_banner.mp4"
-          autoPlay
-          loop
-          muted
-          playsInline
-          className="w-full h-full object-cover"
+        <Image
+          src="/banner_m.png"
+          alt="Hero banner mobile"
+          fill
+          className="object-cover"
+          priority
         />
       </div>
     </motion.section>
