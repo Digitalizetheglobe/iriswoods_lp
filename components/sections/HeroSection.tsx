@@ -15,7 +15,7 @@ export function HeroSection() {
   return (
     <motion.section
       id="home"
-      className="relative w-full h-[700px] sm:h-[600px] md:h-[450px] lg:h-[750px] xl:h-[820px] overflow-hidden"
+      className="relative w-full h-[900px] sm:h-[600px] md:h-[450px] lg:h-[750px] xl:h-[820px] overflow-hidden"
       initial="hidden"
       animate="show"
       variants={container}
