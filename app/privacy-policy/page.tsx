@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { Footer } from '@/components/common/Footer';
 
 export const metadata: Metadata = {
@@ -20,8 +21,14 @@ export default function PrivacyPolicyPage() {
       <div className="sticky top-0 z-50 bg-white shadow-md w-full">
         <div className="container mx-auto px-4 py-3 flex items-center justify-between">
           <div className="flex items-center">
-            <a href="/" className="text-2xl font-bold text-[#584f48]">
-              Codename Tathastu 
+            <a href="/" className="flex items-center">
+              <Image 
+                src="/black.png" 
+                alt="Codename Tathastu Logo" 
+                width={120} 
+                height={60} 
+                className="h-12 w-auto"
+              />
             </a>
           </div>
           <a
@@ -190,7 +197,7 @@ export default function PrivacyPolicyPage() {
               <div className="bg-[#dcf8fe] p-6 rounded-lg border border-[#584f48]">
                 <p className="mb-2"><strong>RISING SPACES</strong></p>
                 <p className="mb-2">
-                  <strong>Address:</strong> S. No. 261, Near Laxmi Chowk, Marunji Road, Hinjawadi, Pune
+                  <strong>Address:</strong> Near Hinjawadi, Pune
                 </p>
                 <p className="mb-2">
                   <strong>Phone:</strong> <a href="tel:+918378944777" className="text-[#584f48] hover:underline">+91 80073 37788</a>

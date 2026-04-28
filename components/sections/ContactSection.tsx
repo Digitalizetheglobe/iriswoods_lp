@@ -140,7 +140,7 @@ const [consent, setConsent] = useState(false);
             {[{
               icon: <FaMapMarkerAlt />,
               title: 'Address',
-              text: <a href="https://www.google.com/maps?q=S.+No.+261,+Near+Laxmi+Chowk,+Marunji+Road,+Hinjawadi,+Pune" target="_blank" rel="noopener noreferrer" className="hover:text-[#584f48]">S. No. 261, Near Laxmi Chowk, Marunji Road, Hinjawadi, Pune</a>
+              text: <a href="https://maps.google.com/?q=Gat+number+1275,+near+Chhatrapati+Shivaji+Maharaj+Statue,+Ghotawade,+Pune,+Ghotavade,+Maharashtra+412115" target="_blank" rel="noopener noreferrer" className="hover:text-[#584f48]">Gate number 1275, near Chhatrapati Shivaji Maharaj Statue, Ghotawade, Pune, Ghotavade, Maharashtra 412115</a>
             },
             {
               icon: <FaPhoneAlt />,

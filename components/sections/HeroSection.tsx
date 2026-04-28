@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { motion, Variants } from 'framer-motion';
+import { div } from 'framer-motion/client';
 
 export function HeroSection() {
   const container: Variants = {
