@@ -31,6 +31,7 @@ export function HeroSection() {
           priority
         />
       </div>
+      {/* add  */}
 
       {/* Tablet */}
       <div className="hidden sm:block md:hidden absolute inset-0">
