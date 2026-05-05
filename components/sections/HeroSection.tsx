@@ -24,19 +24,18 @@ export function HeroSection() {
       {/* Desktop */}
       <div className="hidden md:block absolute inset-0">
         <Image
-          src="/banner_w.png"
+          src="/banner_laptop.png"
           alt="Hero banner desktop"
           fill
           className="object-cover"
           priority
         />
       </div>
-      {/* add  */}
 
       {/* Tablet */}
       <div className="hidden sm:block md:hidden absolute inset-0">
         <Image
-          src="/banner_t.png"
+          src="/banner_tab.png"
           alt="Hero banner tablet"
           fill
           className="object-cover"
@@ -47,7 +46,7 @@ export function HeroSection() {
       {/* Mobile */}
       <div className="sm:hidden absolute inset-0">
         <Image
-          src="/banner_m.png"
+          src="/banner_mobile.png"
           alt="Hero banner mobile"
           fill
           className="object-cover"
