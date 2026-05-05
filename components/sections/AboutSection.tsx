@@ -91,7 +91,7 @@ export function AboutSection() {
           >
             <div className="relative h-66 sm:h-80 md:h-140 w-full rounded-lg overflow-hidden shadow-lg">
               <Image 
-                src="/banner_t.png" 
+                src="/banner_tab.png" 
                 alt="About Codename Tathastu" 
                 fill
                 className="object-cover  transition-transform duration-300"
