@@ -88,13 +88,18 @@ const [consent, setConsent] = useState(false);
   }
 
   try {
-    const response = await fetch('https://api.risingspaces.in/api/forms/forms/6936ad350125596fef84ab24/submit', {
+    const response = await fetch('https://api.risingspaces.in/api/forms/forms/6a19801d08f48d67c940a1ee/submit', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({ 
-        data: { name, email, phone, message }
+        data: {
+          full_name: name,
+          phone_number: Number(phone),
+          email: email,
+          messages: message
+        }
       }),
     });
 
