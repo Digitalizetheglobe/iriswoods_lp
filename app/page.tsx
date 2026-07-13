@@ -10,6 +10,8 @@ import { LocationSection } from '@/components/sections/LocationSection';
 import { ContactSection } from '@/components/sections/ContactSection';
 import LayoutSection from "@/components/sections/LayoutSection";
 import ImageSliderSection from "@/components/sections/ImageSliderSection";
+import { ConstructionSection } from "@/components/sections/ConstructionSection";
+import { SitePhotosSection } from "@/components/sections/SitePhotosSection";
 import { Header } from '@/components/common/Header';
 import { Footer } from '@/components/common/Footer';
 import { useModal } from '@/components/providers/ModalProvider';
@@ -33,6 +35,8 @@ export default function Home() {
         <GallerySection />
         <LayoutSection />
         <ImageSliderSection />
+        <ConstructionSection />
+        <SitePhotosSection />
         <LocationSection />
         <ContactSection />
       </main>
