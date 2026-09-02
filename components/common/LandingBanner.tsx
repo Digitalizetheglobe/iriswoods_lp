@@ -1,9 +1,8 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
 
-interface BannerData {
+export interface BannerData {
   _id: string;
   title?: string;
   desktopBanner?: string;
@@ -12,7 +11,17 @@ interface BannerData {
   isActive?: boolean;
 }
 
-export function HeroSection({ bannerId = '6a97dadf21a331a8f5bded68' }: { bannerId?: string }) {
+export interface LandingBannerProps {
+  bannerId?: string;
+  className?: string;
+  priority?: boolean;
+}
+
+export default function LandingBanner({
+  bannerId = '6a97dadf21a331a8f5bded68',
+  className = '',
+  priority = true,
+}: LandingBannerProps) {
   const [banner, setBanner] = useState<BannerData | null>(null);
   const [loading, setLoading] = useState<boolean>(true);
   const [imageLoaded, setImageLoaded] = useState<boolean>(false);
@@ -31,9 +40,9 @@ export function HeroSection({ bannerId = '6a97dadf21a331a8f5bded68' }: { bannerI
           setBanner(json.data);
         }
       } catch (err) {
-        console.error('Error loading hero banner:', err);
+        console.error('Error loading banner:', err);
         if (isMounted) {
-          // Fallback to default local banners if API fails
+          // Graceful fallback banner if API fails
           setBanner({
             _id: bannerId,
             title: 'Codename Tathastu',
@@ -59,9 +68,7 @@ export function HeroSection({ bannerId = '6a97dadf21a331a8f5bded68' }: { bannerI
 
   if (loading) {
     return (
-      <section id="home" className="relative w-full overflow-hidden">
-        <div className="w-full h-[500px] sm:h-[450px] md:h-[550px] lg:h-[750px] xl:h-[820px] bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 animate-pulse" />
-      </section>
+      <div className={`relative w-full overflow-hidden bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 animate-pulse h-[550px] sm:h-[450px] md:h-[500px] lg:h-[700px] xl:h-[800px] ${className}`} />
     );
   }
 
@@ -87,16 +94,10 @@ export function HeroSection({ bannerId = '6a97dadf21a331a8f5bded68' }: { bannerI
   const mobileSrc = getFullUrl(banner.mobileBanner) || tabletSrc;
 
   return (
-    <motion.section
-      id="home"
-      className="relative w-full overflow-hidden bg-gray-100"
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      transition={{ duration: 0.8, ease: 'easeOut' }}
-    >
+    <div className={`relative w-full overflow-hidden bg-gray-100 ${className}`}>
       {/* Smooth Shimmer placeholder until image finishes decoding & loading */}
       {!imageLoaded && (
-        <div className="absolute inset-0 z-0 bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 animate-pulse h-full min-h-[400px]" />
+        <div className="absolute inset-0 z-0 bg-gradient-to-r from-gray-200 via-gray-100 to-gray-200 animate-pulse" />
       )}
 
       <picture>
@@ -107,17 +108,15 @@ export function HeroSection({ bannerId = '6a97dadf21a331a8f5bded68' }: { bannerI
         {/* Desktop View: screen width > 1024px */}
         <img
           src={desktopSrc}
-          alt={banner.title || 'Hero Banner'}
+          alt={banner.title || 'Codename Tathastu Banner'}
           className={`w-full h-auto object-cover transition-opacity duration-700 ease-in-out ${
             imageLoaded ? 'opacity-100' : 'opacity-0'
           }`}
-          loading="eager"
+          loading={priority ? 'eager' : 'lazy'}
           decoding="async"
           onLoad={() => setImageLoaded(true)}
         />
       </picture>
-    </motion.section>
+    </div>
   );
 }
-
-export default HeroSection;
