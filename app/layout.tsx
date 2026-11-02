@@ -67,6 +67,43 @@ export default function RootLayout({
             { "@type": "LocationFeatureSpecification", "name": "Children's Garden", "value": true }
           ]
         }) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "ItemList",
+          "name": "Site Navigation Links",
+          "itemListElement": [
+            {
+              "@type": "SiteNavigationElement",
+              "position": 1,
+              "name": "Home",
+              "url": "https://www.codenametathastu.com/#home"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 2,
+              "name": "About Us",
+              "url": "https://www.codenametathastu.com/#about"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 3,
+              "name": "Amenities",
+              "url": "https://www.codenametathastu.com/#amenities"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 4,
+              "name": "Gallery",
+              "url": "https://www.codenametathastu.com/#gallery"
+            },
+            {
+              "@type": "SiteNavigationElement",
+              "position": 5,
+              "name": "Contact Us",
+              "url": "https://www.codenametathastu.com/#contact"
+            }
+          ]
+        }) }} />
       </head>
       <body className={inter.className} suppressHydrationWarning={true}>
         <ModalProvider>

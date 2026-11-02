@@ -3,9 +3,9 @@ export const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
       const header = document.querySelector('header');
-      const headerHeight = header ? header.offsetHeight : 0;
+      const headerHeight = header ? header.offsetHeight : 70;
       const elementPosition = element.getBoundingClientRect().top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerHeight;
+      const offsetPosition = elementPosition + window.scrollY - headerHeight;
 
       window.scrollTo({
         top: offsetPosition,
@@ -14,3 +14,4 @@ export const scrollToSection = (id: string) => {
     }
   }
 };
+
